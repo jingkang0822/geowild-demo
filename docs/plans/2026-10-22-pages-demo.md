@@ -67,3 +67,5 @@ checks, and real browser acceptance when the declared Playwright runtime is
 installed. Browser acceptance may resolve the already installed local runtime;
 CI installs its pinned test dependency. Reports/screenshots are ignored artifacts.
 Release proof records local checks, final deployment run and actual live URL.
+
+Final acceptance: [live proof](../live-acceptance.json) and [interaction ledger](../acceptance.md). The original game export remained byte-identical to the inspected source snapshot. The isolated public commit `1523dd6` passed GitHub Pages run `39760321733` and the complete live verification command.

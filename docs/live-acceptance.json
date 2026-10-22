@@ -1,0 +1,62 @@
+{
+  "verifiedAt": "2026-10-22T10:08:58.323Z",
+  "commit": "1523dd635df220c60e1af7aca3c1363d569006df",
+  "workflow": "https://github.com/jingkang0822/geowild-demo/actions/runs/39760321733",
+  "servedFilesVerified": 31,
+  "buildOnlyFiles": {
+    ".nojekyll": "Zero-byte hosting marker; not a runtime dependency; public path returned404 and is excluded from served-content checks."
+  },
+  "base": "https://jingkang0822.github.io/geowild-demo/",
+  "identity": "6c8a3dbbfca9540b03f5eb7e6b41fbaab94076cedb2c84ead67a553425b04638",
+  "browser": "145.0.7632.6",
+  "checks": [
+    "release-identity: metadata, all 17 photos, actual loaded assets",
+    "entry-navigation: rules, credits, stats, menu, Escape and Back",
+    "game-loop: real globe drag, zoom, reset, confirmation and five rounds",
+    "daily-practice-share: demo URL, namespace isolation and repeat play",
+    "mobile: touch globe answer and 390px layout",
+    "recovery: failed photo gates guessing and retries the same question",
+    "recovery: missing map component shows reload and keeps the round",
+    "recovery: corrupt demo save is preserved while the game remains usable",
+    "recovery: blocked storage retries without losing the session answer"
+  ],
+  "loadedHashes": {
+    "index.html": "47d4139103265669b0369030c8e055c3a931b15df44fb94f47ce29d730e829fc",
+    "styles.css": "df9f2edad2cac9b7222adab1b2d51ce1d411047d7effcacb0a913d16e66fac27",
+    "vendor/maplibre-gl.css": "ab1e70d59ec40465bae7e7030da2f3ccf28133fd502e62bd598eefbadfd7a732",
+    "vendor/maplibre-gl.js": "45a9b07a9189ce56054c620a947ccf41e291e58c95e9b61533b740aaa65ee5cb",
+    "js/world.js": "6563ae35022cbdac6c99b5ce2fa3e3b9f8ad550f5834e5208247c3e345173e13",
+    "js/animals.js": "92896477e35c715773c99d9e51af1ad8bb3640c2e812f1ed03a971a056b4137f",
+    "js/engine.js": "110abf83ba878bfa48616cb05b11ff010f9cda46dbc1dbdda63b2ab1fa6cb264",
+    "js/globe.js": "9f638e29d92ba0db5251f93372bd60b604d7b15764292e3db6569c764a6b3945",
+    "js/app.js": "24f30abc151ef6b6ede67323b68c8d5899efd900da1af10005edf4f1790d92f3",
+    "assets/animals/giant-panda.jpg": "121eb2cebea5e6610e15658400da90000f79b80f548553e802d3e16bcb8ea682",
+    "assets/animals/japanese-macaque.jpg": "d2e4728498e1553238fcda8aae563d240ac952450d238fcbf2c08127cb61fc5a",
+    "assets/animals/proboscis-monkey.jpg": "3bb1822b89c3c05ec3b70e75593083ffcceb5a2840d3cd2f3c9cae2e18773cb0",
+    "assets/animals/komodo-dragon.jpg": "c6b6608b8979660d76c07de2f3352bf7d84ace5b33bc20df5d1abe34f0981e8c",
+    "assets/animals/ring-tailed-lemur.jpg": "d393cc48e39218d0083911327509f355350ca0c667c17cccc1651bc9f2572845",
+    "assets/animals/fossa.jpg": "91bd49b20edfdef786bb908d336ed4f46c55f43d64eb44550c4279d7b504b6fa",
+    "assets/animals/okapi.jpg": "f59b0bcbe94d95c9586b4b053d33208a3667c2b13d85e4dc5865af721584a9dc",
+    "assets/animals/meerkat.jpg": "df8bd3e9044ef76295eedfd248c7828f3c2fa08c47f3f9eed4c484d91e60142d",
+    "assets/animals/axolotl.jpg": "70345cd19d5e733ec527907d015025fe4b9dbb3ceda54ede36513f37f5a0332a",
+    "assets/animals/golden-lion-tamarin.jpg": "310deeff58ec7b471393906b97271c228ffa19e881bf4be355a6dfa1eb09fe16",
+    "assets/animals/vicuna.jpg": "ce7836e84c7701c5b8f94016195260e266a65678df6ead9a16ebd897c76fee47",
+    "assets/animals/iberian-lynx.jpg": "08b7ebea63fc119cbc77943d42487569a7f44a3da42540f33da6f812b6ec0243",
+    "assets/animals/barbary-macaque.jpg": "71914c5aeb8faae26c7fa3d46cb5e95e3d630dc21775585777b47f2a6161d358",
+    "assets/animals/koala.jpg": "8c5ee2295c4a3981f2e62861df3bd402bdb55904c5bc3be20107376be339ccfc",
+    "assets/animals/platypus.jpg": "7cdf789517da5e1cff1b00b85863e5ae02b5c1da801c63d4666b693ee1a5a01b",
+    "assets/animals/kakapo.jpg": "26286d0420217d6d56190c3aaaa80ac9f0ba6fe6fbb0790806f23faa379b0490",
+    "assets/animals/tuatara.jpg": "15b8cf70991953d09e87daae4c678aad7a1a7f1ba47270a3002c5e9ec886b18d"
+  },
+  "errors": [],
+  "warnings": [
+    "[.WebGL-0x10c001a9800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x10c001a9800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x10c001a9800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+    "[.WebGL-0x10c001a9800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+  ],
+  "expectedResourceErrors": [
+    "Failed to load resource: the server responded with a status of 503 (Service Unavailable)"
+  ],
+  "external": []
+}
