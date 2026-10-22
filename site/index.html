@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050a0c">
+  <meta name="description" content="A portfolio demo with 17 animals, five questions per round, unlimited practice, and a daily animal geography challenge.">
+  <title>GeoWild — Animal Geography Demo</title>
+  <link rel="canonical" href="https://jingkang0822.github.io/geowild-demo/">
+  <meta property="og:title" content="GeoWild — Portfolio Demo">
+  <meta property="og:url" content="https://jingkang0822.github.io/geowild-demo/">
+  <link rel="stylesheet" href="vendor/maplibre-gl.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <button class="brand" id="home-link" aria-label="GeoWild home">GEO<span>WILD</span><span class="brand-dot" aria-hidden="true"></span></button>
+    <span class="header-caption">A WORLD OF WILD GUESSES</span>
+    <button class="menu-toggle" id="menu-button" aria-label="Open menu" aria-haspopup="dialog"><span aria-hidden="true">☰</span><span>Menu</span></button>
+  </header>
+  <div id="global-notice" class="notice global-notice" role="status" hidden></div>
+  <main id="main" tabindex="-1">
+    <section id="home-view" class="home-view" aria-labelledby="home-title">
+      <div class="home-copy"><p class="eyebrow">FIVE PHOTOS. UNLIMITED EXPLORING.</p><h1 id="home-title">Where does<br>it call home<span>?</span></h1><p class="home-intro">Spin the globe. Find their native countries.<br>Five photos a round. Play as often as you like.</p><button id="start-button" class="primary home-cta" aria-describedby="play-note">PLAY</button><p class="play-note" id="play-note">Unlimited practice. No daily limit.</p><button id="daily-button" class="secondary daily-cta" aria-describedby="daily-note">Daily Challenge →</button><p class="daily-note" id="daily-note"></p><button id="home-rules" class="text-button">How to play <span aria-hidden="true">→</span></button></div>
+      <div class="home-orbit" aria-hidden="true"><svg viewBox="0 0 600 600"><defs><radialGradient id="planet"><stop stop-color="#17383b"/><stop offset=".8" stop-color="#092125"/><stop offset="1" stop-color="#071315"/></radialGradient><clipPath id="sphere"><circle cx="300" cy="300" r="229"/></clipPath></defs><circle cx="300" cy="300" r="270" class="orbit-ring"/><circle cx="300" cy="300" r="229" fill="url(#planet)" stroke="#65b9b4" stroke-width="1.3"/><g clip-path="url(#sphere)" fill="none" stroke="#39726e" stroke-width="1"><ellipse cx="300" cy="300" rx="90" ry="229"/><ellipse cx="300" cy="300" rx="180" ry="229"/><ellipse cx="300" cy="300" rx="229" ry="83"/><ellipse cx="300" cy="300" rx="229" ry="168"/><path d="M71 300h458M300 71v458"/><path d="m143 166 55-26 43 19 34 48-15 26-53 9-22 39 26 39 46 12 28 46-13 66-21 39-26-23-16-64-40-33-18-64-43-37 7-54Zm190-14 65-9 54 32 28 54-33 27-38-12-17 26-48-10-24-35 13-73Zm-21 139 44-16 43 33 7 59-33 49-38-17-18-58Zm112 123 48-22 37 29-10 36-61-5Z" fill="#1c4b47" stroke="#92d9bd" stroke-width="1.5"/></g><circle cx="382" cy="244" r="8" fill="#c4ffd8"/><circle cx="382" cy="244" r="18" fill="none" stroke="#c4ffd8"/><path d="M398 234l59-39h76" fill="none" stroke="#b8edd0"/><text x="463" y="182" fill="#b8edd0" font-size="13" letter-spacing="3">FIND HOME</text><path d="M94 477h120M154 468v18M463 100h32M479 84v32" stroke="#66aaa3"/></svg><span class="orbit-label">EXPLORE THE WILD / 01—05</span></div>
+      <div class="home-footer"><span>PORTFOLIO DEMO · 17 ANIMALS</span><span>5 QUESTIONS / 1,000 POINTS / NO TIMER</span><button id="home-credits" class="text-button">Photo & data credits</button></div>
+    </section>
+    <section id="game-view" class="game-view" aria-labelledby="question-title" hidden>
+      <div class="game-top"><div class="score-box"><span>SCORE</span><strong id="score-value">0</strong><small>/ 1000</small></div><div class="game-date"><span id="mode-label">DAILY CHALLENGE</span><strong id="game-date"></strong></div></div>
+      <div class="question-strip"><h1 id="question-title">Question 1 of 5</h1><span id="weight-label">×1 · 100 points</span></div>
+      <div class="play-layout">
+        <aside class="animal-panel"><div class="photo-frame"><img id="animal-photo" alt="Wild animal to identify" draggable="false"><div id="photo-state" class="photo-state" role="status"></div><button id="retry-photo" class="secondary photo-retry" hidden>Retry this photo</button></div><p class="photo-credit" id="photo-credit"></p><div id="question-copy"><p class="eyebrow">WHERE DOES IT CALL HOME?</p><h2>Where is it native?</h2><p class="muted">Find one of its native countries.<br>Tap the globe to make your guess.</p></div><div id="answer-panel" class="answer-panel" aria-live="polite" hidden></div></aside>
+        <div class="map-column"><div class="map-shell"><div id="globe" aria-label="Interactive globe. Use arrow keys to pan, or guess at the map center."></div><span id="map-crosshair" class="map-crosshair" aria-hidden="true">+</span><div class="map-controls"><button id="zoom-in" aria-label="Zoom in">+</button><button id="zoom-out" aria-label="Zoom out">−</button><button id="reset-map" aria-label="Reset globe view">↺</button></div><div class="map-instruction" id="map-instruction">DRAG TO SPIN · SCROLL TO ZOOM · TAP TO GUESS</div><div class="map-legend" id="map-legend" hidden><span><i class="guess-dot"></i>Your guess</span><span><i class="answer-dot"></i>Nearest native location</span></div></div><div id="map-status" class="notice" role="status" hidden></div><button id="retry-map" class="secondary" hidden>Reload globe</button><div id="guess-controls" class="guess-controls"><label class="confirm-option"><input id="confirm-setting" type="checkbox">Confirm location before locking in</label><div class="guess-buttons"><button id="center-guess" class="secondary">Guess at map center</button><button id="lock-guess" class="primary" hidden disabled>Lock it in →</button></div><p id="guess-status" class="muted" role="status">You can guess once the photo loads.</p></div><button id="next-button" class="primary next-button" hidden>Next question →</button></div>
+      </div>
+    </section>
+    <section id="results-view" class="results-view" aria-labelledby="results-title" hidden><p class="eyebrow" id="results-mode">TODAY'S EXPEDITION</p><h1 id="results-title">Today’s expedition</h1><p id="results-date" class="muted"></p><div class="final-score"><strong id="final-score">0</strong><span>/ 1,000</span></div><p id="result-message"></p><div id="result-rows" class="result-rows"></div><div class="result-actions"><button id="share-button" class="primary">Copy score</button><button id="practice-button" class="secondary">Play a practice round</button><button id="results-home" class="text-button">Back to home</button></div><div id="share-fallback" hidden><label for="share-text">Share text</label><textarea id="share-text" rows="8" readonly></textarea><p id="share-status" class="muted" role="status"></p></div></section>
+  </main>
+  <footer class="site-footer"><span>GEOWILD / PORTFOLIO DEMO</span><span>Guess native countries, not precise habitats.</span><button id="footer-rules" class="text-button">Rules & scoring</button></footer>
+  <dialog id="info-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><h2 id="dialog-title"></h2><button id="close-dialog" aria-label="Close dialog">×</button></div><div id="dialog-content" class="dialog-content"></div></dialog>
+  <noscript><p class="notice">GeoWild needs JavaScript to load the globe and save your guesses.</p></noscript>
+  <script src="vendor/maplibre-gl.js"></script><script src="js/world.js"></script><script src="js/animals.js"></script><script src="js/engine.js"></script><script src="js/globe.js"></script><script src="js/app.js"></script>
+</body>
+</html>

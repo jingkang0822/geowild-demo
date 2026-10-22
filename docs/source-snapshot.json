@@ -1,0 +1,124 @@
+{
+  "source": "GeoWild 17-species inspected working export",
+  "base_commit": "37eaab942deb6ff249dd5518ee5393909fb887a8",
+  "snapshot_identity": "8bbd579c54267c13e693c1d78e31b8256e1cd820963e92c455518d0cd31db59a",
+  "public_overrides": [
+    "Share URL",
+    "Demo storage namespace",
+    "Portfolio labels and metadata"
+  ],
+  "files": {
+    "assets/animals/axolotl.jpg": {
+      "sha256": "70345cd19d5e733ec527907d015025fe4b9dbb3ceda54ede36513f37f5a0332a",
+      "bytes": 142623
+    },
+    "assets/animals/barbary-macaque.jpg": {
+      "sha256": "71914c5aeb8faae26c7fa3d46cb5e95e3d630dc21775585777b47f2a6161d358",
+      "bytes": 304190
+    },
+    "assets/animals/fossa.jpg": {
+      "sha256": "91bd49b20edfdef786bb908d336ed4f46c55f43d64eb44550c4279d7b504b6fa",
+      "bytes": 241609
+    },
+    "assets/animals/giant-panda.jpg": {
+      "sha256": "121eb2cebea5e6610e15658400da90000f79b80f548553e802d3e16bcb8ea682",
+      "bytes": 177193
+    },
+    "assets/animals/golden-lion-tamarin.jpg": {
+      "sha256": "310deeff58ec7b471393906b97271c228ffa19e881bf4be355a6dfa1eb09fe16",
+      "bytes": 233198
+    },
+    "assets/animals/iberian-lynx.jpg": {
+      "sha256": "08b7ebea63fc119cbc77943d42487569a7f44a3da42540f33da6f812b6ec0243",
+      "bytes": 184793
+    },
+    "assets/animals/japanese-macaque.jpg": {
+      "sha256": "d2e4728498e1553238fcda8aae563d240ac952450d238fcbf2c08127cb61fc5a",
+      "bytes": 215064
+    },
+    "assets/animals/kakapo.jpg": {
+      "sha256": "26286d0420217d6d56190c3aaaa80ac9f0ba6fe6fbb0790806f23faa379b0490",
+      "bytes": 190822
+    },
+    "assets/animals/koala.jpg": {
+      "sha256": "8c5ee2295c4a3981f2e62861df3bd402bdb55904c5bc3be20107376be339ccfc",
+      "bytes": 284386
+    },
+    "assets/animals/komodo-dragon.jpg": {
+      "sha256": "c6b6608b8979660d76c07de2f3352bf7d84ace5b33bc20df5d1abe34f0981e8c",
+      "bytes": 223404
+    },
+    "assets/animals/meerkat.jpg": {
+      "sha256": "df8bd3e9044ef76295eedfd248c7828f3c2fa08c47f3f9eed4c484d91e60142d",
+      "bytes": 226059
+    },
+    "assets/animals/okapi.jpg": {
+      "sha256": "f59b0bcbe94d95c9586b4b053d33208a3667c2b13d85e4dc5865af721584a9dc",
+      "bytes": 296392
+    },
+    "assets/animals/platypus.jpg": {
+      "sha256": "7cdf789517da5e1cff1b00b85863e5ae02b5c1da801c63d4666b693ee1a5a01b",
+      "bytes": 118751
+    },
+    "assets/animals/proboscis-monkey.jpg": {
+      "sha256": "3bb1822b89c3c05ec3b70e75593083ffcceb5a2840d3cd2f3c9cae2e18773cb0",
+      "bytes": 190250
+    },
+    "assets/animals/ring-tailed-lemur.jpg": {
+      "sha256": "d393cc48e39218d0083911327509f355350ca0c667c17cccc1651bc9f2572845",
+      "bytes": 261934
+    },
+    "assets/animals/tuatara.jpg": {
+      "sha256": "15b8cf70991953d09e87daae4c678aad7a1a7f1ba47270a3002c5e9ec886b18d",
+      "bytes": 208273
+    },
+    "assets/animals/vicuna.jpg": {
+      "sha256": "ce7836e84c7701c5b8f94016195260e266a65678df6ead9a16ebd897c76fee47",
+      "bytes": 203279
+    },
+    "index.html": {
+      "sha256": "1024778f57cefa66ceb4acc7e4a83b6b3e7ba41dfeaf114258b862acc416a25e",
+      "bytes": 7649
+    },
+    "js/animals.js": {
+      "sha256": "92896477e35c715773c99d9e51af1ad8bb3640c2e812f1ed03a971a056b4137f",
+      "bytes": 17453
+    },
+    "js/app.js": {
+      "sha256": "663d44a2c3fdd4a0de1ca7d38ac6821703ae20a003576e921c054480bc9c922f",
+      "bytes": 24083
+    },
+    "js/engine.js": {
+      "sha256": "110abf83ba878bfa48616cb05b11ff010f9cda46dbc1dbdda63b2ab1fa6cb264",
+      "bytes": 11436
+    },
+    "js/globe.js": {
+      "sha256": "9f638e29d92ba0db5251f93372bd60b604d7b15764292e3db6569c764a6b3945",
+      "bytes": 7624
+    },
+    "js/world.js": {
+      "sha256": "6563ae35022cbdac6c99b5ce2fa3e3b9f8ad550f5834e5208247c3e345173e13",
+      "bytes": 1888794
+    },
+    "styles.css": {
+      "sha256": "df9f2edad2cac9b7222adab1b2d51ce1d411047d7effcacb0a913d16e66fac27",
+      "bytes": 16242
+    },
+    "vendor/MAPLIBRE-LICENSE.txt": {
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2",
+      "bytes": 5984
+    },
+    "vendor/NATURAL-EARTH-LICENSE.txt": {
+      "sha256": "cab2f4a434ee97b36cb57283d3b1bd383bf2b9559edca5c020f9a9cc554f149a",
+      "bytes": 235
+    },
+    "vendor/maplibre-gl.css": {
+      "sha256": "ab1e70d59ec40465bae7e7030da2f3ccf28133fd502e62bd598eefbadfd7a732",
+      "bytes": 70024
+    },
+    "vendor/maplibre-gl.js": {
+      "sha256": "45a9b07a9189ce56054c620a947ccf41e291e58c95e9b61533b740aaa65ee5cb",
+      "bytes": 1056837
+    }
+  }
+}
