@@ -24,11 +24,15 @@ plan-before-code: b, this plan precedes edits and current owner instructions aut
 
 ## CI platform compatibility
 
-The first publication run39901235844 failed before game tests: ubuntu-latest
-resolved to26.04 and pinned Playwright1.58.2 reported unsupported chromium on
-ubuntu26.04-x64. The official v1.58.2 platform/dependency source contains24.04
-support and no26.04 dependency entry. Controlled dry-run probes vary only the
-host-platform override:24.04 resolves valid Chromium download artifacts;26.04
-fails with the same unsupported-platform error. Pin the existing workflow to
+The first publication run 39901235844 failed before game tests: ubuntu-latest
+resolved to 26.04 and pinned Playwright 1.58.2 reported unsupported Chromium on
+ubuntu26.04-x64. The official v1.58.2 platform/dependency source contains 24.04
+support and no 26.04 dependency entry. Controlled dry-run probes vary only the
+host-platform override: 24.04 resolves valid Chromium download artifacts; 26.04
+prints no download URLs despite exiting successfully in dry-run mode. The actual
+26.04 CI installation, rather than dry-run exit status, is the failure evidence.
+Pin the existing workflow to
 ubuntu-24.04, retain the browser/test version, and require a fresh complete CI
 and live run. This scoped build-environment repair does not alter gameplay.
+
+Final acceptance: exactly 100 species, 24 Node tests, nine local/CI/live browser workflows, 1,214 source-backed species-country assertions, and 114 served-content hashes passed. See [acceptance](../acceptance.md) and [live proof](../live-acceptance.json). No production-checkout files were changed.

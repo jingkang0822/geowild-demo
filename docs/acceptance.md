@@ -47,8 +47,10 @@ Country-level answers are not exact habitat claims. Natural Earth uses its own a
 
 ## Release status
 
-Local verification is complete. Final Pages workflow and same-URL live proof will be recorded after deployment; the prior `live-acceptance.json` is dated for the preceding 17-species release until then.
+Published at https://jingkang0822.github.io/geowild-demo/ . [Pages run 39901375679](https://github.com/jingkang0822/geowild-demo/actions/runs/39901375679) passed on commit `c0316955a5182fc993fd9c4ad282c94cfb73fd42`. The same live `DEMO_URL=https://jingkang0822.github.io/geowild-demo/ yarn verify` passed all 24 Node tests and nine browser workflows in 27.59 seconds. All 114 served content files match their expected hashes; the build-only dotfile is excluded. [Machine-readable proof](live-acceptance.json) records all 100 loaded photo hashes and zero unexpected errors/automatic external requests. Retained renderer warnings and deliberate503 are explicit.
 
 ## Asset import evidence
 
 The existing downloader initially received a transient Wikimedia HTTP429. Subsequent bounded probes returned200 for the same original and thumbnail URLs; the probe record remains an ignored artifact. Imports resumed sequentially with existing files preserved, immediate failure and per-file progress, without automatic status retries or alternate-provider routing. All 100 final JPEGs passed macOS decoding/dimensions and browser Image.decode(). Four labelled contact sheets were visually inspected; historical Javan-rhino and sable photographs remain authentic credited images.
+
+CI compatibility: the first attempt on ubuntu-latest resolved Ubuntu 26.04 and failed before tests because Playwright 1.58.2 has no matching dependency/browser support. The previous successful run used 24.04. Pinning `ubuntu-24.04` restored the actual installation and complete CI verification. This changed no game files. The original production candidate bank still matches the intake hash, all original 17 IDs/scientific names/native-country inputs were retained, and the old persisted reveal test passes.
