@@ -6,10 +6,13 @@ const assert = require('node:assert/strict');
 const root = path.resolve(__dirname, '../site');
 const context = vm.createContext({ window: {} });
 for (const file of ['js/world.js', 'js/animals.js']) vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context, { filename: file });
-const { ANIMALS: animals, WORLD_DATA: world } = context.window;
+const { ANIMALS: animals, WORLD_DATA: world } = JSON.parse(JSON.stringify(context.window));
 const codes = new Set(world.features.map(feature => feature.properties.code));
-assert.equal(animals.length, 17, 'The portfolio release has exactly 17 approved species');
+assert.equal(animals.length, 100, 'The portfolio release has exactly 100 approved species');
+assert.deepEqual(animals, JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/animals.json'), 'utf8')));
 assert.equal(new Set(animals.map(animal => animal.id)).size, animals.length);
+assert.equal(new Set(animals.map(animal => animal.scientificName)).size, animals.length);
+assert.deepEqual(fs.readdirSync(path.join(root, 'assets/animals')).sort(), animals.map(animal => `${animal.id}.jpg`).sort());
 let bytes = 0;
 for (const animal of animals) {
   for (const field of ['id', 'name', 'scientificName', 'alt', 'nativeLabel', 'fact']) assert.ok(typeof animal[field] === 'string' && animal[field].trim(), `${animal.id}: ${field}`);

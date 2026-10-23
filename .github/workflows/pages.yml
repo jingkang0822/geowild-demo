@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'site/**'
+      - 'data/**'
+      - 'docs/animal-assets.json'
       - 'scripts/**'
       - 'tests/**'
       - 'package.json'

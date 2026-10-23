@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "day": "2026-10-22",
+  "mode": "practice",
+  "animalIds": [
+    "platypus",
+    "barbary-macaque",
+    "meerkat",
+    "komodo-dragon",
+    "fossa"
+  ],
+  "index": 1,
+  "results": [
+    {
+      "animalId": "platypus",
+      "guess": [
+        15,
+        12
+      ],
+      "distanceKm": 11362.90551168778,
+      "nearest": [
+        112.9082,
+        -25.5698
+      ],
+      "baseScore": 25,
+      "multiplier": 1,
+      "points": 25,
+      "maxPoints": 100
+    },
+    {
+      "animalId": "barbary-macaque",
+      "guess": [
+        15,
+        12
+      ],
+      "distanceKm": 1259.1926757296155,
+      "nearest": [
+        8.847195702400676,
+        21.67805959762104
+      ],
+      "baseScore": 75,
+      "multiplier": 1,
+      "points": 75,
+      "maxPoints": 100
+    }
+  ],
+  "stage": "reveal",
+  "guess": [
+    15,
+    12
+  ]
+}

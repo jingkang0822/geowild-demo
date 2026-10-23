@@ -1,0 +1,16 @@
+{
+  "source": "Inspected GeoWild candidate bank",
+  "fetched": "2026-10-23",
+  "candidate_sha256": "a2ff4f0c1a4484c86cf37e329cd775546a990eb0cce1d9dba4a2dccc912c7d34",
+  "builder_source_sha256": "bcf10cdc88cad3e6381bd658afb1d4cead66cf897f7f4a360d7ebcf0d63c1abf",
+  "selection": "Original 17 plus 83 additional source-verifiable species; excluded four new candidates whose IUCN correction pages could not be retrieved. Added red kangaroo, quokka, common wombat and emu.",
+  "excluded_candidates": [
+    "african-bush-elephant",
+    "african-forest-elephant",
+    "gray-wolf",
+    "white-rhinoceros"
+  ],
+  "canonical": "data/animals.json",
+  "count": 100,
+  "original_project_mutations": false
+}

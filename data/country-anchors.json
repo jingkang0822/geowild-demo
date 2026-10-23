@@ -1,0 +1,1125 @@
+{
+  "source": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson",
+  "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+  "fields": "ADM0_A3 and LABEL_X/LABEL_Y; label coordinates are independent fixture inputs, not computed from the engine under test",
+  "countries": {
+    "ZWE": {
+      "name": "Zimbabwe",
+      "point": [
+        29.925444,
+        -18.91164
+      ]
+    },
+    "ZMB": {
+      "name": "Zambia",
+      "point": [
+        26.395298,
+        -14.660804
+      ]
+    },
+    "YEM": {
+      "name": "Yemen",
+      "point": [
+        45.874383,
+        15.328226
+      ]
+    },
+    "VNM": {
+      "name": "Vietnam",
+      "point": [
+        105.387292,
+        21.715416
+      ]
+    },
+    "VEN": {
+      "name": "Venezuela",
+      "point": [
+        -64.599381,
+        7.182476
+      ]
+    },
+    "UZB": {
+      "name": "Uzbekistan",
+      "point": [
+        64.005429,
+        41.693603
+      ]
+    },
+    "URY": {
+      "name": "Uruguay",
+      "point": [
+        -55.966942,
+        -32.961127
+      ]
+    },
+    "USA": {
+      "name": "United States of America",
+      "point": [
+        -97.482602,
+        39.538479
+      ]
+    },
+    "GBR": {
+      "name": "United Kingdom",
+      "point": [
+        -2.116346,
+        54.402739
+      ]
+    },
+    "ARE": {
+      "name": "United Arab Emirates",
+      "point": [
+        54.547256,
+        23.466285
+      ]
+    },
+    "UKR": {
+      "name": "Ukraine",
+      "point": [
+        32.140865,
+        49.724739
+      ]
+    },
+    "UGA": {
+      "name": "Uganda",
+      "point": [
+        32.948555,
+        1.972589
+      ]
+    },
+    "TKM": {
+      "name": "Turkmenistan",
+      "point": [
+        58.676647,
+        39.855246
+      ]
+    },
+    "TUR": {
+      "name": "Turkey",
+      "point": [
+        34.508268,
+        39.345388
+      ]
+    },
+    "TUN": {
+      "name": "Tunisia",
+      "point": [
+        9.007881,
+        33.687263
+      ]
+    },
+    "TGO": {
+      "name": "Togo",
+      "point": [
+        1.058113,
+        8.80722
+      ]
+    },
+    "THA": {
+      "name": "Thailand",
+      "point": [
+        101.073198,
+        15.45974
+      ]
+    },
+    "TZA": {
+      "name": "United Republic of Tanzania",
+      "point": [
+        34.959183,
+        -6.051866
+      ]
+    },
+    "TJK": {
+      "name": "Tajikistan",
+      "point": [
+        72.587276,
+        38.199835
+      ]
+    },
+    "TWN": {
+      "name": "Taiwan",
+      "point": [
+        120.868204,
+        23.652408
+      ]
+    },
+    "SYR": {
+      "name": "Syria",
+      "point": [
+        38.277783,
+        35.006636
+      ]
+    },
+    "CHE": {
+      "name": "Switzerland",
+      "point": [
+        7.463965,
+        46.719114
+      ]
+    },
+    "SWE": {
+      "name": "Sweden",
+      "point": [
+        19.01705,
+        65.85918
+      ]
+    },
+    "SWZ": {
+      "name": "eSwatini",
+      "point": [
+        31.467264,
+        -26.533676
+      ]
+    },
+    "SUR": {
+      "name": "Suriname",
+      "point": [
+        -55.91094,
+        4.143987
+      ]
+    },
+    "SDS": {
+      "name": "South Sudan",
+      "point": [
+        30.390151,
+        7.230477
+      ]
+    },
+    "SDN": {
+      "name": "Sudan",
+      "point": [
+        29.260657,
+        16.330746
+      ]
+    },
+    "LKA": {
+      "name": "Sri Lanka",
+      "point": [
+        80.704823,
+        7.581097
+      ]
+    },
+    "ESP": {
+      "name": "Spain",
+      "point": [
+        -3.464718,
+        40.090953
+      ]
+    },
+    "KOR": {
+      "name": "South Korea",
+      "point": [
+        128.129504,
+        36.384924
+      ]
+    },
+    "ZAF": {
+      "name": "South Africa",
+      "point": [
+        23.665734,
+        -29.708776
+      ]
+    },
+    "SOM": {
+      "name": "Somalia",
+      "point": [
+        45.19238,
+        3.568925
+      ]
+    },
+    "SVK": {
+      "name": "Slovakia",
+      "point": [
+        19.049868,
+        48.734044
+      ]
+    },
+    "SVN": {
+      "name": "Slovenia",
+      "point": [
+        14.915312,
+        46.06076
+      ]
+    },
+    "SLE": {
+      "name": "Sierra Leone",
+      "point": [
+        -11.763677,
+        8.617449
+      ]
+    },
+    "SRB": {
+      "name": "Republic of Serbia",
+      "point": [
+        20.787989,
+        44.189919
+      ]
+    },
+    "SEN": {
+      "name": "Senegal",
+      "point": [
+        -14.778586,
+        15.138125
+      ]
+    },
+    "SAU": {
+      "name": "Saudi Arabia",
+      "point": [
+        44.6996,
+        23.806908
+      ]
+    },
+    "RWA": {
+      "name": "Rwanda",
+      "point": [
+        30.103894,
+        -1.897196
+      ]
+    },
+    "RUS": {
+      "name": "Russia",
+      "point": [
+        44.686469,
+        58.249357
+      ]
+    },
+    "ROU": {
+      "name": "Romania",
+      "point": [
+        24.972624,
+        45.733237
+      ]
+    },
+    "QAT": {
+      "name": "Qatar",
+      "point": [
+        51.143509,
+        25.237383
+      ]
+    },
+    "PRT": {
+      "name": "Portugal",
+      "point": [
+        -8.271754,
+        39.606675
+      ]
+    },
+    "POL": {
+      "name": "Poland",
+      "point": [
+        19.490468,
+        51.990316
+      ]
+    },
+    "PER": {
+      "name": "Peru",
+      "point": [
+        -72.90016,
+        -12.976679
+      ]
+    },
+    "PRY": {
+      "name": "Paraguay",
+      "point": [
+        -60.146394,
+        -21.674509
+      ]
+    },
+    "PAN": {
+      "name": "Panama",
+      "point": [
+        -80.352106,
+        8.72198
+      ]
+    },
+    "PAK": {
+      "name": "Pakistan",
+      "point": [
+        68.545632,
+        29.328389
+      ]
+    },
+    "OMN": {
+      "name": "Oman",
+      "point": [
+        57.336553,
+        22.120427
+      ]
+    },
+    "NOR": {
+      "name": "Norway",
+      "point": [
+        9.679975,
+        61.357092
+      ]
+    },
+    "PRK": {
+      "name": "North Korea",
+      "point": [
+        126.444516,
+        39.885252
+      ]
+    },
+    "NGA": {
+      "name": "Nigeria",
+      "point": [
+        7.50322,
+        9.439799
+      ]
+    },
+    "NER": {
+      "name": "Niger",
+      "point": [
+        9.504356,
+        17.446195
+      ]
+    },
+    "NIC": {
+      "name": "Nicaragua",
+      "point": [
+        -85.069347,
+        12.670697
+      ]
+    },
+    "NZL": {
+      "name": "New Zealand",
+      "point": [
+        176.283,
+        -38.117
+      ],
+      "place": "Rotorua",
+      "source": "https://collections.tepapa.govt.nz/place/2792620",
+      "fixtureCorrection": {
+        "labelPoint": [
+          172.787,
+          -39.759
+        ],
+        "reason": "Cartographic label coordinate lies offshore; replace it with an independently sourced inland settlement, keeping the production polygon/scoring unchanged."
+      }
+    },
+    "NLD": {
+      "name": "Netherlands",
+      "point": [
+        5.61144,
+        52.422211
+      ]
+    },
+    "NPL": {
+      "name": "Nepal",
+      "point": [
+        83.639914,
+        28.297925
+      ]
+    },
+    "NAM": {
+      "name": "Namibia",
+      "point": [
+        17.108166,
+        -20.575298
+      ]
+    },
+    "MOZ": {
+      "name": "Mozambique",
+      "point": [
+        37.83789,
+        -13.94323
+      ]
+    },
+    "MAR": {
+      "name": "Morocco",
+      "point": [
+        -7.187296,
+        31.650723
+      ]
+    },
+    "MNE": {
+      "name": "Montenegro",
+      "point": [
+        19.143727,
+        42.803101
+      ]
+    },
+    "MNG": {
+      "name": "Mongolia",
+      "point": [
+        104.150405,
+        45.997488
+      ]
+    },
+    "MDA": {
+      "name": "Moldova",
+      "point": [
+        28.487904,
+        47.434999
+      ]
+    },
+    "MEX": {
+      "name": "Mexico",
+      "point": [
+        -102.289448,
+        23.919988
+      ]
+    },
+    "MRT": {
+      "name": "Mauritania",
+      "point": [
+        -9.740299,
+        19.587062
+      ]
+    },
+    "MLI": {
+      "name": "Mali",
+      "point": [
+        -2.038455,
+        18.692713
+      ]
+    },
+    "MYS": {
+      "name": "Malaysia",
+      "point": [
+        113.83708,
+        2.528667
+      ]
+    },
+    "MWI": {
+      "name": "Malawi",
+      "point": [
+        33.608082,
+        -13.386737
+      ]
+    },
+    "MDG": {
+      "name": "Madagascar",
+      "point": [
+        46.704241,
+        -18.628288
+      ]
+    },
+    "MKD": {
+      "name": "North Macedonia",
+      "point": [
+        21.555839,
+        41.558223
+      ]
+    },
+    "LUX": {
+      "name": "Luxembourg",
+      "point": [
+        6.07762,
+        49.733732
+      ]
+    },
+    "LTU": {
+      "name": "Lithuania",
+      "point": [
+        24.089932,
+        55.103703
+      ]
+    },
+    "LIE": {
+      "name": "Liechtenstein",
+      "point": [
+        9.559439,
+        47.111405
+      ]
+    },
+    "LBY": {
+      "name": "Libya",
+      "point": [
+        18.011015,
+        26.638944
+      ]
+    },
+    "LBR": {
+      "name": "Liberia",
+      "point": [
+        -9.460379,
+        6.447177
+      ]
+    },
+    "LSO": {
+      "name": "Lesotho",
+      "point": [
+        28.246639,
+        -29.480158
+      ]
+    },
+    "LBN": {
+      "name": "Lebanon",
+      "point": [
+        35.992892,
+        34.133368
+      ]
+    },
+    "LVA": {
+      "name": "Latvia",
+      "point": [
+        25.458723,
+        57.066872
+      ]
+    },
+    "LAO": {
+      "name": "Laos",
+      "point": [
+        102.533912,
+        19.431821
+      ]
+    },
+    "KGZ": {
+      "name": "Kyrgyzstan",
+      "point": [
+        74.532637,
+        41.66854
+      ]
+    },
+    "KWT": {
+      "name": "Kuwait",
+      "point": [
+        47.313999,
+        29.413628
+      ]
+    },
+    "KOS": {
+      "name": "Kosovo",
+      "point": [
+        20.860719,
+        42.593587
+      ]
+    },
+    "KEN": {
+      "name": "Kenya",
+      "point": [
+        37.907632,
+        0.549043
+      ]
+    },
+    "KAZ": {
+      "name": "Kazakhstan",
+      "point": [
+        68.685548,
+        49.054149
+      ]
+    },
+    "JOR": {
+      "name": "Jordan",
+      "point": [
+        36.375991,
+        30.805025
+      ]
+    },
+    "JPN": {
+      "name": "Japan",
+      "point": [
+        138.44217,
+        36.142538
+      ]
+    },
+    "ITA": {
+      "name": "Italy",
+      "point": [
+        11.076907,
+        44.732482
+      ]
+    },
+    "ISR": {
+      "name": "Israel",
+      "point": [
+        34.847915,
+        30.911148
+      ]
+    },
+    "PSX": {
+      "name": "Palestine",
+      "point": [
+        35.291341,
+        32.047431
+      ]
+    },
+    "IRL": {
+      "name": "Ireland",
+      "point": [
+        -7.798588,
+        53.078726
+      ]
+    },
+    "IRQ": {
+      "name": "Iraq",
+      "point": [
+        43.26181,
+        33.09403
+      ]
+    },
+    "IRN": {
+      "name": "Iran",
+      "point": [
+        54.931495,
+        32.166225
+      ]
+    },
+    "IDN": {
+      "name": "Indonesia",
+      "point": [
+        101.892949,
+        -0.954404
+      ]
+    },
+    "IND": {
+      "name": "India",
+      "point": [
+        79.358105,
+        22.686852
+      ]
+    },
+    "ISL": {
+      "name": "Iceland",
+      "point": [
+        -18.673711,
+        64.779286
+      ]
+    },
+    "HUN": {
+      "name": "Hungary",
+      "point": [
+        19.447867,
+        47.086841
+      ]
+    },
+    "HND": {
+      "name": "Honduras",
+      "point": [
+        -86.887604,
+        14.794801
+      ]
+    },
+    "GUY": {
+      "name": "Guyana",
+      "point": [
+        -58.942643,
+        5.124317
+      ]
+    },
+    "GNB": {
+      "name": "Guinea-Bissau",
+      "point": [
+        -14.52413,
+        12.163712
+      ]
+    },
+    "GIN": {
+      "name": "Guinea",
+      "point": [
+        -10.016402,
+        10.618516
+      ]
+    },
+    "GTM": {
+      "name": "Guatemala",
+      "point": [
+        -90.497134,
+        14.982133
+      ]
+    },
+    "GRC": {
+      "name": "Greece",
+      "point": [
+        21.72568,
+        39.492763
+      ]
+    },
+    "GHA": {
+      "name": "Ghana",
+      "point": [
+        -1.036941,
+        7.717639
+      ]
+    },
+    "DEU": {
+      "name": "Germany",
+      "point": [
+        9.678348,
+        50.961733
+      ]
+    },
+    "GEO": {
+      "name": "Georgia",
+      "point": [
+        43.735724,
+        41.870087
+      ]
+    },
+    "GMB": {
+      "name": "Gambia",
+      "point": [
+        -14.998318,
+        13.641721
+      ]
+    },
+    "GAB": {
+      "name": "Gabon",
+      "point": [
+        11.835939,
+        -0.437739
+      ]
+    },
+    "FRA": {
+      "name": "France",
+      "point": [
+        2.552275,
+        46.696113
+      ]
+    },
+    "FIN": {
+      "name": "Finland",
+      "point": [
+        27.276449,
+        63.252361
+      ]
+    },
+    "ETH": {
+      "name": "Ethiopia",
+      "point": [
+        39.0886,
+        8.032795
+      ]
+    },
+    "EST": {
+      "name": "Estonia",
+      "point": [
+        25.867126,
+        58.724865
+      ]
+    },
+    "ERI": {
+      "name": "Eritrea",
+      "point": [
+        38.285566,
+        15.787401
+      ]
+    },
+    "GNQ": {
+      "name": "Equatorial Guinea",
+      "point": [
+        10.55124,
+        1.43677
+      ],
+      "place": "Evinayong",
+      "source": "https://download.geonames.org/export/dump/GQ.zip",
+      "fixtureCorrection": {
+        "labelPoint": [
+          8.9902,
+          2.333
+        ],
+        "reason": "Cartographic label coordinate lies offshore; replace it with an independently sourced inland settlement, keeping the production polygon/scoring unchanged."
+      },
+      "sourceSha256": "a5d4e806e455a0009411a664c8d0c7fdaa6227fa3d33a36d21812bad4fa1c13b"
+    },
+    "SLV": {
+      "name": "El Salvador",
+      "point": [
+        -88.890124,
+        13.685371
+      ]
+    },
+    "EGY": {
+      "name": "Egypt",
+      "point": [
+        29.445837,
+        26.186173
+      ]
+    },
+    "ECU": {
+      "name": "Ecuador",
+      "point": [
+        -78.188375,
+        -1.259076
+      ]
+    },
+    "DJI": {
+      "name": "Djibouti",
+      "point": [
+        42.498825,
+        11.976343
+      ]
+    },
+    "GRL": {
+      "name": "Greenland",
+      "point": [
+        -39.335251,
+        74.319387
+      ]
+    },
+    "DNK": {
+      "name": "Denmark",
+      "point": [
+        9.018163,
+        55.966965
+      ]
+    },
+    "CZE": {
+      "name": "Czechia",
+      "point": [
+        15.377555,
+        49.882364
+      ]
+    },
+    "HRV": {
+      "name": "Croatia",
+      "point": [
+        16.37241,
+        45.805799
+      ]
+    },
+    "CIV": {
+      "name": "Ivory Coast",
+      "point": [
+        -5.568618,
+        7.49139
+      ]
+    },
+    "CRI": {
+      "name": "Costa Rica",
+      "point": [
+        -84.077922,
+        10.0651
+      ]
+    },
+    "COD": {
+      "name": "Democratic Republic of the Congo",
+      "point": [
+        23.458829,
+        -1.858167
+      ]
+    },
+    "COG": {
+      "name": "Republic of the Congo",
+      "point": [
+        15.9005,
+        0.142331
+      ]
+    },
+    "COL": {
+      "name": "Colombia",
+      "point": [
+        -73.174347,
+        3.373111
+      ]
+    },
+    "CHN": {
+      "name": "China",
+      "point": [
+        106.337289,
+        32.498178
+      ]
+    },
+    "CHL": {
+      "name": "Chile",
+      "point": [
+        -72.318871,
+        -38.151771
+      ]
+    },
+    "TCD": {
+      "name": "Chad",
+      "point": [
+        18.645041,
+        15.142959
+      ]
+    },
+    "CAF": {
+      "name": "Central African Republic",
+      "point": [
+        20.906897,
+        6.989681
+      ]
+    },
+    "CAN": {
+      "name": "Canada",
+      "point": [
+        -101.9107,
+        60.324287
+      ]
+    },
+    "CMR": {
+      "name": "Cameroon",
+      "point": [
+        12.473488,
+        4.585041
+      ]
+    },
+    "KHM": {
+      "name": "Cambodia",
+      "point": [
+        104.50487,
+        12.647584
+      ]
+    },
+    "MMR": {
+      "name": "Myanmar",
+      "point": [
+        95.804497,
+        21.573855
+      ]
+    },
+    "BDI": {
+      "name": "Burundi",
+      "point": [
+        29.917086,
+        -3.332836
+      ]
+    },
+    "BFA": {
+      "name": "Burkina Faso",
+      "point": [
+        -1.36388,
+        12.673048
+      ]
+    },
+    "BGR": {
+      "name": "Bulgaria",
+      "point": [
+        25.15709,
+        42.508785
+      ]
+    },
+    "BRN": {
+      "name": "Brunei",
+      "point": [
+        114.551943,
+        4.448298
+      ]
+    },
+    "BRA": {
+      "name": "Brazil",
+      "point": [
+        -49.55945,
+        -12.098687
+      ]
+    },
+    "BWA": {
+      "name": "Botswana",
+      "point": [
+        24.179216,
+        -22.102634
+      ]
+    },
+    "BIH": {
+      "name": "Bosnia and Herzegovina",
+      "point": [
+        18.06841,
+        44.091051
+      ]
+    },
+    "BOL": {
+      "name": "Bolivia",
+      "point": [
+        -64.593433,
+        -16.666015
+      ]
+    },
+    "BTN": {
+      "name": "Bhutan",
+      "point": [
+        90.040294,
+        27.536685
+      ]
+    },
+    "BEN": {
+      "name": "Benin",
+      "point": [
+        2.352018,
+        10.324775
+      ]
+    },
+    "BLZ": {
+      "name": "Belize",
+      "point": [
+        -88.712962,
+        17.202068
+      ]
+    },
+    "BEL": {
+      "name": "Belgium",
+      "point": [
+        4.800448,
+        50.785392
+      ]
+    },
+    "BLR": {
+      "name": "Belarus",
+      "point": [
+        28.417701,
+        53.821888
+      ]
+    },
+    "BGD": {
+      "name": "Bangladesh",
+      "point": [
+        89.684963,
+        24.214956
+      ]
+    },
+    "AZE": {
+      "name": "Azerbaijan",
+      "point": [
+        47.210994,
+        40.402387
+      ]
+    },
+    "AUT": {
+      "name": "Austria",
+      "point": [
+        14.130515,
+        47.518859
+      ]
+    },
+    "AUS": {
+      "name": "Australia",
+      "point": [
+        134.04972,
+        -24.129522
+      ]
+    },
+    "ARM": {
+      "name": "Armenia",
+      "point": [
+        44.800564,
+        40.459077
+      ]
+    },
+    "ARG": {
+      "name": "Argentina",
+      "point": [
+        -64.173331,
+        -33.501159
+      ]
+    },
+    "AGO": {
+      "name": "Angola",
+      "point": [
+        17.984249,
+        -12.182762
+      ]
+    },
+    "DZA": {
+      "name": "Algeria",
+      "point": [
+        2.808241,
+        27.397406
+      ]
+    },
+    "ALB": {
+      "name": "Albania",
+      "point": [
+        20.11384,
+        40.654855
+      ]
+    },
+    "AFG": {
+      "name": "Afghanistan",
+      "point": [
+        66.496586,
+        34.164262
+      ]
+    }
+  }
+}

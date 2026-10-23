@@ -1,6 +1,6 @@
 import { spawnSync } from 'node:child_process';
 const commands = [
-  ['node', ['--test', 'tests/engine.test.cjs', 'tests/geography.test.cjs', 'tests/ui.test.cjs']],
+  ['node', ['--test', 'tests/bank.test.cjs', 'tests/engine.test.cjs', 'tests/geography.test.cjs', 'tests/ui.test.cjs']],
   ['node', ['scripts/verify-package.cjs']],
   ['node', ['scripts/verify-release.cjs']],
   ['node', ['scripts/browser.mjs']],

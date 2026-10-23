@@ -7,7 +7,7 @@ const root = path.resolve(__dirname, '../site');
 const release = JSON.parse(fs.readFileSync(path.join(root, 'release.json'), 'utf8'));
 const hash = bytes => crypto.createHash('sha256').update(bytes).digest('hex');
 assert.equal(release.site, 'https://jingkang0822.github.io/geowild-demo/');
-assert.equal(release.species, 17);
+assert.equal(release.species, JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/animals.json'), 'utf8')).length);
 assert.equal(release.questionsPerRound, 5);
 assert.equal(release.storage, 'geowild-demo:v1');
 const actual = [];

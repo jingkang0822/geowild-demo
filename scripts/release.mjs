@@ -4,8 +4,9 @@ import path from 'node:path';
 const root = path.resolve(import.meta.dirname, '..');
 const site = path.join(root, 'site');
 const url = 'https://jingkang0822.github.io/geowild-demo/';
+const species = JSON.parse(await readFile(path.join(root, 'data/animals.json'), 'utf8')).length;
 const html = await readFile(path.join(site, 'index.html'), 'utf8');
-if (!html.includes(url) || !html.includes('PORTFOLIO DEMO · 17 ANIMALS')) throw new Error('Missing public demo identity');
+if (!html.includes(url) || !html.includes(`PORTFOLIO DEMO · ${species} ANIMALS`)) throw new Error('Missing public demo identity');
 await writeFile(path.join(site, '404.html'), html);
 await writeFile(path.join(site, '.nojekyll'), '');
 await writeFile(path.join(site, 'robots.txt'), `User-agent: *\nAllow: /\nSitemap: ${url}sitemap.xml\n`);
@@ -27,5 +28,5 @@ async function inspect(dir) {
 }
 await inspect(site);
 const identity = createHash('sha256').update(JSON.stringify(Object.entries(files).sort())).digest('hex');
-await writeFile(path.join(site, 'release.json'), JSON.stringify({ name: 'GeoWild — Portfolio Demo', site: url, species: 17, questionsPerRound: 5, storage: 'geowild-demo:v1', identity, files }, null, 2) + '\n');
+await writeFile(path.join(site, 'release.json'), JSON.stringify({ name: 'GeoWild — Portfolio Demo', site: url, species, questionsPerRound: 5, storage: 'geowild-demo:v1', identity, files }, null, 2) + '\n');
 console.log(JSON.stringify({ identity, files: Object.keys(files).length, bytes: Object.values(files).reduce((n, f) => n + f.bytes, 0) }));

@@ -12,6 +12,7 @@ const base = process.env.DEMO_URL ?? 'https://geowild.test/geowild-demo/';
 const origin = new URL(base);
 const key = 'geowild-demo:v1';
 const expected = JSON.parse(await readFile(path.join(site, 'release.json'), 'utf8'));
+assert.ok(Number.isInteger(expected.species) && expected.species > 0, 'Release must declare its species count');
 const report = { base, identity: expected.identity, browser: '', checks: [], loadedHashes: {}, errors: [], warnings: [], expectedResourceErrors: [], external: [] };
 const localShell = path.join(os.homedir(), 'Library/Caches/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-mac-arm64/chrome-headless-shell');
 const executablePath = process.env.DEMO_BROWSER_EXECUTABLE ?? (existsSync(localShell) ? localShell : undefined);
@@ -83,18 +84,25 @@ async function openMenu(p, route) { await p.getByRole('button', { name: 'Open me
 try {
   const main = await makeContext({ clipboardFailure: true, init: () => localStorage.setItem('geowild:v1', 'original-site-sentinel') });
   const { p } = main;
-  await check('release-identity: metadata, all 17 photos, actual loaded assets', async () => {
+  await check(`release-identity: metadata, all ${expected.species} photos, actual loaded assets`, async () => {
     await p.goto(base);
     await expect(p).toHaveTitle('GeoWild — Animal Geography Demo');
-    await expect(p.getByText('PORTFOLIO DEMO · 17 ANIMALS', { exact: true })).toBeVisible();
+    await expect(p.getByText(`PORTFOLIO DEMO · ${expected.species} ANIMALS`, { exact: true })).toBeVisible();
     assert.equal(await p.locator('link[rel="canonical"]').getAttribute('href'), expected.site);
     const release = await p.evaluate(async () => (await fetch('./release.json')).json());
     assert.equal(release.identity, expected.identity);
-    assert.equal(await p.evaluate(() => window.ANIMALS.length), 17);
-    const decoded = await p.evaluate(async () => Promise.all(window.ANIMALS.map(animal => new Promise((resolve, reject) => {
-      const photo = new Image(); photo.onload = () => photo.naturalWidth > 0 ? resolve(animal.image) : reject(new Error(animal.id)); photo.onerror = () => reject(new Error(animal.id)); photo.src = animal.image;
-    }))));
-    assert.equal(decoded.length, 17);
+    assert.equal(release.species, expected.species);
+    await expect(p.locator('meta[name="description"]')).toHaveAttribute('content', new RegExp(`\\b${expected.species} animals\\b`));
+    assert.equal(await p.evaluate(() => window.ANIMALS.length), expected.species);
+    const decoded = await p.evaluate(async () => Promise.all(window.ANIMALS.map(async animal => {
+      const photo = new Image();
+      photo.src = animal.image;
+      await photo.decode();
+      if (!(photo.naturalWidth > 0 && photo.naturalHeight > 0)) throw new Error(`Undecodable animal photo: ${animal.id}`);
+      return animal.image;
+    })));
+    assert.equal(decoded.length, expected.species);
+    assert.equal(new Set(decoded).size, expected.species, 'Each species has its own packaged photo');
     for (const name of ['index.html', 'styles.css', 'vendor/maplibre-gl.css', 'vendor/maplibre-gl.js', 'js/world.js', 'js/animals.js', 'js/engine.js', 'js/globe.js', 'js/app.js', ...decoded]) {
       const response = main.responses.get(name === 'index.html' ? origin.pathname : new URL(name, base).pathname);
       assert.ok(response, `Missing loaded response ${name}`);
@@ -109,13 +117,23 @@ try {
     await expect(p.locator('#main')).toBeFocused();
     await p.locator('#home-rules').click(); await expect(p.getByRole('dialog')).toHaveAccessibleName('Rules & scoring');
     await p.keyboard.press('Escape'); await expect(p.getByRole('dialog')).toBeHidden();
-    await p.locator('#home-credits').click(); await expect(p.locator('.credit-item')).toHaveCount(17);
+    await p.locator('#home-credits').click(); await expect(p.locator('.credit-item')).toHaveCount(expected.species);
     const links = await p.locator('#dialog-content a').evaluateAll(links => links.map(link => ({ href: link.href, rel: link.rel })));
-    assert.ok(links.length > 50 && links.every(link => link.href.startsWith('https:') && link.rel.includes('noopener')));
+    assert.ok(links.length >= expected.species * 3 && links.every(link => link.href.startsWith('https:') && link.rel.includes('noopener')));
+    const lastAnimal = await p.evaluate(() => ({ name: window.ANIMALS.at(-1).name, scientificName: window.ANIMALS.at(-1).scientificName }));
+    const lastCredit = p.locator('.credit-item').last();
+    await expect(lastCredit.getByRole('heading')).toContainText(lastAnimal.name);
+    await expect(lastCredit.getByRole('heading')).toContainText(lastAnimal.scientificName);
+    await lastCredit.getByRole('link').last().scrollIntoViewIfNeeded();
+    await expect(lastCredit.getByRole('link').last()).toBeInViewport();
+    await expect(lastCredit.getByRole('heading')).toBeInViewport();
+    await expect(p.getByRole('button', { name: 'Close dialog', exact: true })).toBeInViewport();
+    assert.ok(await p.locator('#info-dialog').evaluate(dialog => dialog.scrollTop > 0), 'Credits dialog scrolls to its final species');
     await p.goBack(); await expect(p.getByRole('dialog')).toBeHidden();
+    await expect(p.locator('#home-view')).toBeVisible();
     await openMenu(p, 'stats'); await expect(p.getByRole('dialog')).toHaveAccessibleName('Local stats'); await closeDialog(p);
     await openMenu(p, 'rules'); await expect(p.getByRole('dialog')).toHaveAccessibleName('Rules & scoring'); await closeDialog(p);
-    await openMenu(p, 'credits'); await expect(p.locator('.credit-item')).toHaveCount(17); await closeDialog(p);
+    await openMenu(p, 'credits'); await expect(p.locator('.credit-item')).toHaveCount(expected.species); await closeDialog(p);
     await openMenu(p, 'home'); await expect(p.locator('#home-view')).toBeVisible();
     await p.locator('#footer-rules').click(); await closeDialog(p);
   });
