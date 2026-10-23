@@ -21,3 +21,14 @@ plan-before-code: b, this plan precedes edits and current owner instructions aut
 | Shared species question | Existing app, engine, globe, local JPEGs and generated bank | Node real engine; Chromium real MapLibre/WebGL desktop and 390px mobile | Engine owns result/index; app owns photo identity/draft; globe owns camera | Loading -> ready -> guess/draft -> reveal -> next/results; photo error -> exact retry; stale completion ignored | Five sequential unique species; same handler for all 100 | Existing geowild-demo:v1; old 17 IDs and saved-game shape retained | No timer; persist before reveal; no extra browser run per species | Parameterized bank tests plus `game-loop`, `daily-practice-share`, `mobile` and browser recovery checks | yarn verify | FROZEN |
 | Per-species geography | Canonical source evidence, packaged polygons and actual distance/score engine | Offline deterministic data tests with primary-source evidence snapshots | Reviewed source-country table is answer authority; geometry maps ISO3 codes | Scientific name -> source range -> reviewed codes -> point-in-country -> accepted/negative scores | Country-level answer regions, never exact habitat polygons | Canonical bank plus source/correction evidence with fetched date/hash | Sources reviewed before publication; no runtime external source dependency | `geography.test.cjs` uses real packaged world geometry/engine; source retrieval is verification, not mocked by gameplay tests | yarn verify | FROZEN |
 | 100-photo and credits release | Local licensed JPEGs, existing credits dialog and static Pages artifact | Real Chromium local project path and live HTTPS | Canonical bank owns metadata; release.json owns bytes/count | All photos decode; credits open/scroll/close; verify -> deploy -> hash check | Same 100 records drive photos, credits and selector | Git snapshot and release identity; original production export remains separate | Bounded browser flows; no 100-round manual repetition | Actual response hashes and all-image browser decode; final credit scroll test | yarn verify | FROZEN |
+
+## CI platform compatibility
+
+The first publication run39901235844 failed before game tests: ubuntu-latest
+resolved to26.04 and pinned Playwright1.58.2 reported unsupported chromium on
+ubuntu26.04-x64. The official v1.58.2 platform/dependency source contains24.04
+support and no26.04 dependency entry. Controlled dry-run probes vary only the
+host-platform override:24.04 resolves valid Chromium download artifacts;26.04
+fails with the same unsupported-platform error. Pin the existing workflow to
+ubuntu-24.04, retain the browser/test version, and require a fresh complete CI
+and live run. This scoped build-environment repair does not alter gameplay.
