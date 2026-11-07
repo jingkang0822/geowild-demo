@@ -1,26 +1,34 @@
 {
   "name": "GeoWild — Portfolio Demo",
   "site": "https://jingkang0822.github.io/geowild-demo/",
-  "species": 100,
+  "species": 150,
   "questionsPerRound": 5,
   "storage": "geowild-demo:v1",
-  "identity": "bc9c0f9eb448e9918d342eaeabda09f7d0190fed1c3eae7fb68bc905722f9dcd",
+  "identity": "ba8213c93a1c865ea4078df611e370c2fbc421edcdc14993ca049954e30ee4be",
   "files": {
     ".nojekyll": {
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "bytes": 0
     },
     "404.html": {
-      "sha256": "e6c6cbabee5276d363ea3ef78a31722f5c6d0df00c19834f82b15b454615b065",
+      "sha256": "a267b3bc1770c3c24d11f1acf2df792abb9877957d656723956f07ed87be2c1a",
       "bytes": 7929
     },
     "assets/animals/african-wild-dog.jpg": {
       "sha256": "9144351f5f3ab7cf16b95ec889d10da9173a05e16617d5517c1be4806d3313bb",
       "bytes": 126345
     },
+    "assets/animals/alpine-ibex.jpg": {
+      "sha256": "a4d012e7e440035e9389a3f89791934876ad5fa5bd4f535c9484a39f0b1a0553",
+      "bytes": 79598
+    },
     "assets/animals/american-badger.jpg": {
       "sha256": "9ccebb9c249a03310235b4c94520ecaf623040f6d926a839246f3088e379fec4",
       "bytes": 204827
+    },
+    "assets/animals/american-bison.jpg": {
+      "sha256": "2ffa72c06606ff91e9870122600d116307909bc7c28b97766b8a1aba36a7c7cc",
+      "bytes": 158884
     },
     "assets/animals/american-black-bear.jpg": {
       "sha256": "c2330ee7f8bf170c10b487590f0b7d754ddf1f6ca7018e9bce1bd2c75e405060",
@@ -46,9 +54,17 @@
       "sha256": "70345cd19d5e733ec527907d015025fe4b9dbb3ceda54ede36513f37f5a0332a",
       "bytes": 142623
     },
+    "assets/animals/aye-aye.jpg": {
+      "sha256": "217d510343c746952ba51fc908fd21aa3f51603972192b32542af5f0329f91b3",
+      "bytes": 127652
+    },
     "assets/animals/baird-s-tapir.jpg": {
       "sha256": "42ab3363fca16f0f4129110da62542edff1fa86e84b5c20d8e8e8902f3b88e83",
       "bytes": 275615
+    },
+    "assets/animals/banteng.jpg": {
+      "sha256": "70d9d2cedf00652fc819f446cb1f4084f431fe007d9e1754b98900ed349cc53b",
+      "bytes": 135805
     },
     "assets/animals/barbary-macaque.jpg": {
       "sha256": "71914c5aeb8faae26c7fa3d46cb5e95e3d630dc21775585777b47f2a6161d358",
@@ -58,6 +74,14 @@
       "sha256": "f422399e8261859f8145593541c3f9da5ee13ac277e7329b617bf4ca8a0e9f85",
       "bytes": 164484
     },
+    "assets/animals/bighorn-sheep.jpg": {
+      "sha256": "58715e74b2e86946aa84ec4c441c5910a718dc03a7797b369177ea24711e5bd8",
+      "bytes": 206899
+    },
+    "assets/animals/black-and-white-ruffed-lemur.jpg": {
+      "sha256": "9ead743482dbfe93f50ce23408f6077df67b7153a4dcb4ed972a8e8e9b8f0fc7",
+      "bytes": 150541
+    },
     "assets/animals/black-rhinoceros.jpg": {
       "sha256": "023c674bba18202e2799db198e19358dc13db05669fc3179b06c8ae0c27af010",
       "bytes": 144050
@@ -65,6 +89,18 @@
     "assets/animals/black-tailed-prairie-dog.jpg": {
       "sha256": "46e31868348fbcec3a09ec8b87ba7bcce6f1e393d9e10ab7292cde536f5a787c",
       "bytes": 144707
+    },
+    "assets/animals/black-wildebeest.jpg": {
+      "sha256": "32a91c477cbc33d22fa8f4908dd6227e0ea9a9dc9f6e6d1bb58b8bea4a12bc27",
+      "bytes": 214743
+    },
+    "assets/animals/blackbuck.jpg": {
+      "sha256": "048191edec8384009b90faa1b7c06ddc7a783f86dc037c92f4b0d93ea3a06eea",
+      "bytes": 114997
+    },
+    "assets/animals/blue-wildebeest.jpg": {
+      "sha256": "c92c7ba2832fe9122fcc5b7fd0fd2ba8471e2320e0e8a21cac669356817dda83",
+      "bytes": 227875
     },
     "assets/animals/bobcat.jpg": {
       "sha256": "2145f8d83d9ce37389946f891ccc8aba803d30d516175ec4602e471b4505bf5f",
@@ -106,9 +142,17 @@
       "sha256": "777e236df936517ffa230c1b22b4c9fa3a0db19e253111dbbc7dd5f22784ed15",
       "bytes": 164073
     },
+    "assets/animals/common-warthog.jpg": {
+      "sha256": "740348e304f520da64fde2703b03f4498c73b707cdc920d5b1aa4de390cb6f7d",
+      "bytes": 193658
+    },
     "assets/animals/common-wombat.jpg": {
       "sha256": "2c256cd82ac5eb6aca9e3667207d974bfe88b4a72c8e5d960ce021d42a2f2fc2",
       "bytes": 167585
+    },
+    "assets/animals/cotton-top-tamarin.jpg": {
+      "sha256": "fe754da458684ee292edc6fd7c7e41b1882d0101ff5dbfe6643f23128fd78186",
+      "bytes": 110274
     },
     "assets/animals/cougar.jpg": {
       "sha256": "7d887b5d057f2640337683a942b1438ff6206fcb12ca35bc82b604d48223d5db",
@@ -130,9 +174,17 @@
       "sha256": "3fa394617640d734890dc912d48ae8677e1fbb6cb708d2172235e82dd3a9962a",
       "bytes": 196066
     },
+    "assets/animals/eastern-gray-kangaroo.jpg": {
+      "sha256": "53fc46f6f9aca7d10b256b8768b9570ef038feda3fb2d17dce20f34ff484e581",
+      "bytes": 141308
+    },
     "assets/animals/eastern-gray-squirrel.jpg": {
       "sha256": "ce12febb6380716c4b9dab02f5923a6db0f5a78ef9435e44e1dc04a1ab9c60e4",
       "bytes": 295833
+    },
+    "assets/animals/elk.jpg": {
+      "sha256": "da20a719e850de5858e87a4604a531a55dfee532670ece441986220897166ecb",
+      "bytes": 272536
     },
     "assets/animals/emu.jpg": {
       "sha256": "15bd2daea0d95c188ac740f04d608eb2e1dc5882dd1e9a83aa5679e871de6cfc",
@@ -150,6 +202,10 @@
       "sha256": "d185338a8d5d0d7dcefed2381bcfab9121a07a31fe24cd01e68681bb30347d51",
       "bytes": 138963
     },
+    "assets/animals/european-bison.jpg": {
+      "sha256": "92f44cbc001f4f50808f1037eeed3978952d49bd50e2007b74ec52f153b6e954",
+      "bytes": 184526
+    },
     "assets/animals/european-pine-marten.jpg": {
       "sha256": "dedc631226cb5043e9fe7b045781612b2350571ffbfe02491feb4f0126b536ad",
       "bytes": 97003
@@ -166,6 +222,22 @@
       "sha256": "91bd49b20edfdef786bb908d336ed4f46c55f43d64eb44550c4279d7b504b6fa",
       "bytes": 241609
     },
+    "assets/animals/gaur.jpg": {
+      "sha256": "55ae8a795ce4fc6fd46243af4c09e6368755d1c170b87947f35a2e3f59b001bc",
+      "bytes": 247752
+    },
+    "assets/animals/gelada.jpg": {
+      "sha256": "ef2c813cb05d2a81237b8afe7b1bb358bf7767c70e67d723d3a06d4842a4273e",
+      "bytes": 315993
+    },
+    "assets/animals/giant-anteater.jpg": {
+      "sha256": "3ea0f780cd9af0c1a33e6ce2b89ba8a48b53a245417963b59919145d132d8d58",
+      "bytes": 225853
+    },
+    "assets/animals/giant-armadillo.jpg": {
+      "sha256": "0f6379221bf7a1affac1309a975c58e63f850e8d2b1a680497b0511d87d09547",
+      "bytes": 160577
+    },
     "assets/animals/giant-otter.jpg": {
       "sha256": "ae0635fb4e2945d5c72c014077eb083070ce45f4e2b75eb4d497464923ea920d",
       "bytes": 156222
@@ -177,6 +249,14 @@
     "assets/animals/golden-lion-tamarin.jpg": {
       "sha256": "310deeff58ec7b471393906b97271c228ffa19e881bf4be355a6dfa1eb09fe16",
       "bytes": 233198
+    },
+    "assets/animals/goodfellow-s-tree-kangaroo.jpg": {
+      "sha256": "bc125c37f3397a7605e80ebdb8d1d9ea2ce48478126619ee18b0d3c987d5177e",
+      "bytes": 140688
+    },
+    "assets/animals/greater-kudu.jpg": {
+      "sha256": "870db0905ec34b7652c459ea2d50b452327b1d257c4c96cad84a9c8e64c5a5eb",
+      "bytes": 290169
     },
     "assets/animals/grevy-s-zebra.jpg": {
       "sha256": "bc923c5d94a26919808202f378f9c0c590b3ab508d17b2df8d4831399f91ced1",
@@ -194,13 +274,25 @@
       "sha256": "0d308aefffd99fcb0788a7844f09bdadc3c5eff8e8fe8b290cbe63ab3ffe36bd",
       "bytes": 129715
     },
+    "assets/animals/iberian-ibex.jpg": {
+      "sha256": "3810408b52696f3ca1177f44263237b79d88552365e174bbcf1ed6e8a2b4bdf7",
+      "bytes": 304822
+    },
     "assets/animals/iberian-lynx.jpg": {
       "sha256": "08b7ebea63fc119cbc77943d42487569a7f44a3da42540f33da6f812b6ec0243",
       "bytes": 184793
     },
+    "assets/animals/impala.jpg": {
+      "sha256": "bbcb8b91c0cfcd2a3cf759626a209c4829cdfc0e4aa5dcab1b52b4036f74a8af",
+      "bytes": 153573
+    },
     "assets/animals/indian-rhinoceros.jpg": {
       "sha256": "a733398c95efd12f1344060cea0876f49c5796a4a3f97e71bec44a6e3991b6ce",
       "bytes": 161481
+    },
+    "assets/animals/indri.jpg": {
+      "sha256": "719fbba54c80c775037724fc6b487f786d7cda79c013fb9b6e11f3482e6bb2ce",
+      "bytes": 313240
     },
     "assets/animals/jaguar.jpg": {
       "sha256": "a9e9ccff51bb39c6503c3d867c8483a954a7ab102b0784fa2d2e1a7881dcfb2c",
@@ -242,17 +334,33 @@
       "sha256": "0dff501ff338f06031e03d2cd8d9cc3d1cb0773bd0a5a3f5f52ccf3a736c0ef2",
       "bytes": 285431
     },
+    "assets/animals/lion-tailed-macaque.jpg": {
+      "sha256": "72fd751aec9dc884e9206b3705f83195894ca0f91b5f13fdd51c135ffdaf9446",
+      "bytes": 132784
+    },
     "assets/animals/lion.jpg": {
       "sha256": "d04c2b3842b80c4723c110327a4c32192c2c18586f60fe7e0bc68aafd54bd3f2",
       "bytes": 131618
+    },
+    "assets/animals/mandrill.jpg": {
+      "sha256": "f1502e62577c87fd4587c01e71dd0bde915eb3c29c6579b86bee37b5a19eed88",
+      "bytes": 181934
     },
     "assets/animals/maned-wolf.jpg": {
       "sha256": "8c77c25418c92debc612f523931c851c89e44416c84561040a0bfad391f16dd2",
       "bytes": 225265
     },
+    "assets/animals/masai-giraffe.jpg": {
+      "sha256": "8cbfc6b64297530ccb6260d72466935f4e5b717ead4063456154f287d3b778ba",
+      "bytes": 225184
+    },
     "assets/animals/meerkat.jpg": {
       "sha256": "df8bd3e9044ef76295eedfd248c7828f3c2fa08c47f3f9eed4c484d91e60142d",
       "bytes": 226059
+    },
+    "assets/animals/mountain-goat.jpg": {
+      "sha256": "449f7cf13648053e3502c71dc6971723cd2d93f6a1b2c41328205280240df1c4",
+      "bytes": 297081
     },
     "assets/animals/mountain-tapir.jpg": {
       "sha256": "76384a237c761d7f60ecb7292ad8ab7c6d67740c8dec7d000dd771a022cc4fa9",
@@ -261,6 +369,14 @@
     "assets/animals/mountain-zebra.jpg": {
       "sha256": "4f3f586567b334cc1d3a9b1e7e046377ccd5db0404c893c2feffb085bf9b4c84",
       "bytes": 156276
+    },
+    "assets/animals/mule-deer.jpg": {
+      "sha256": "73f0658defb64794a5dc94bc06f2faa2d5484a238d92c39a003ef88bc4113902",
+      "bytes": 89909
+    },
+    "assets/animals/muskox.jpg": {
+      "sha256": "73f02a9166784c05fe3bf5f11cef347b933aa784fd73f880e5c867fa1a597d21",
+      "bytes": 217068
     },
     "assets/animals/north-american-beaver.jpg": {
       "sha256": "2b977f7df236266e0ba011ce13af65dd6843872c0a693f811f5e0dbabf2f8dd6",
@@ -273,6 +389,14 @@
     "assets/animals/north-american-river-otter.jpg": {
       "sha256": "cbf550267555cb51fdcdf50f32d953a9367c3e784d356aff01aa945b2d7c2942",
       "bytes": 113010
+    },
+    "assets/animals/north-sulawesi-babirusa.jpg": {
+      "sha256": "f45a28070bc853119c8701e282d91053de52bea1c98a9e873d310d4d05177955",
+      "bytes": 259837
+    },
+    "assets/animals/northern-giraffe.jpg": {
+      "sha256": "d7830cc48be465f9e1c069a402092271542b2b425cf2cdba2ac268987059b3ee",
+      "bytes": 88413
     },
     "assets/animals/ocelot.jpg": {
       "sha256": "00422da7c9d38fdda48fc23c66ff4912062c4097913e3c496bb33b40d6304a5d",
@@ -289,6 +413,10 @@
     "assets/animals/pallas-s-cat.jpg": {
       "sha256": "c058bf7e9d9917c925e28586b24aa1b419b103234758ddbe8111975d9dd33f88",
       "bytes": 234979
+    },
+    "assets/animals/philippine-tarsier.jpg": {
+      "sha256": "00cb1581c9e506b3a3d3eafb5d7aab451742e658561099107b93cea1caf1c0e8",
+      "bytes": 191060
     },
     "assets/animals/plains-zebra.jpg": {
       "sha256": "f7b06b15982f46c3829d16ec0632c25fc9109f255f0b1b28586bbdc71dc95ffc",
@@ -314,6 +442,10 @@
       "sha256": "b4798d764144d9355228f4ca5e8cbac7ca18ac6c041f8e129a1b97af033b6b12",
       "bytes": 189477
     },
+    "assets/animals/red-deer.jpg": {
+      "sha256": "1d3b46aff8824d237acf9d29d1b996d90c09fda600bf7c40e47231de877d4b21",
+      "bytes": 116371
+    },
     "assets/animals/red-fox.jpg": {
       "sha256": "800813081facb4056e38adb6dd37bb16a11e318d52c5895a82cc84c6c2cf8005",
       "bytes": 126128
@@ -321,6 +453,18 @@
     "assets/animals/red-kangaroo.jpg": {
       "sha256": "e764c0c3b676baec6855ea0b00d96eef808beb6b4c56cee669417d83e3fda39f",
       "bytes": 257671
+    },
+    "assets/animals/red-ruffed-lemur.jpg": {
+      "sha256": "9829e48024a165e003d6e1179a43b730504ed5e28e269147d460f958e14c5759",
+      "bytes": 226069
+    },
+    "assets/animals/red-slender-loris.jpg": {
+      "sha256": "96dc9e6493e14953a0d83ded1bf6f335c3f488a61c954832d57d370802e7f008",
+      "bytes": 159827
+    },
+    "assets/animals/reticulated-giraffe.jpg": {
+      "sha256": "bb6dcd9849d8f09bf4dbcc3f60db73e4b7736310c57ed6367ca98e5cc7021408",
+      "bytes": 332951
     },
     "assets/animals/ring-tailed-lemur.jpg": {
       "sha256": "d393cc48e39218d0083911327509f355350ca0c667c17cccc1651bc9f2572845",
@@ -338,9 +482,25 @@
       "sha256": "194c1871f9c03c9dc4ad39d2bd239184958586a344c1563d997723de92fd33d3",
       "bytes": 253085
     },
+    "assets/animals/short-beaked-echidna.jpg": {
+      "sha256": "96c4634d7bf13b001f91de8675ababdc3c6fe304319e5b37f116e75ffbfc5d55",
+      "bytes": 181397
+    },
     "assets/animals/short-tailed-chinchilla.jpg": {
       "sha256": "be01251d6fefda1dda62ff2ddffe9134a2078cc4ce2f44d8d0fb48eeac690e4c",
       "bytes": 72174
+    },
+    "assets/animals/siamang.jpg": {
+      "sha256": "c0c647da5c35516085811ab351147c5f85642d686270304c53d717798167c59b",
+      "bytes": 161658
+    },
+    "assets/animals/sika-deer.jpg": {
+      "sha256": "3af998eae6e630a516ae76ed30110062a0f886b0e781706a386cd50a16b57912",
+      "bytes": 158237
+    },
+    "assets/animals/silvery-gibbon.jpg": {
+      "sha256": "b257c8498a5a3a6e901779e2c15a004ad4d409eb8368be0f8d94db6aab4d08b5",
+      "bytes": 162327
     },
     "assets/animals/sloth-bear.jpg": {
       "sha256": "2c0ac82250b8c3d92e22b92c88c815b65e4f9208176de0b79de192682787db2d",
@@ -357,6 +517,26 @@
     "assets/animals/south-american-tapir.jpg": {
       "sha256": "798520da3df1a29ea2c5c3cbb021ffbedaed586c1c117ddf0842f8fb2a5c4ccb",
       "bytes": 227486
+    },
+    "assets/animals/southern-cassowary.jpg": {
+      "sha256": "a95c68d20ced8ba921152090bff1a7582731ceda9a968c780b3027b6d92a0c53",
+      "bytes": 216414
+    },
+    "assets/animals/southern-giraffe.jpg": {
+      "sha256": "30ba3ce037d2c589c3ccd7285b40501a137226ce5a3219edc6570c27125d0e2c",
+      "bytes": 233339
+    },
+    "assets/animals/southern-hairy-nosed-wombat.jpg": {
+      "sha256": "2a898f6307047ecdf1009ad4d12e67a8d5f366be534b6485311410f1cdd649eb",
+      "bytes": 207468
+    },
+    "assets/animals/southern-tamandua.jpg": {
+      "sha256": "4e0d88c5ff13393d417fcf7a74e174765c4d8a5f448fe9cbda65869ebeb7f81d",
+      "bytes": 186644
+    },
+    "assets/animals/southern-three-banded-armadillo.jpg": {
+      "sha256": "296678a9b91594fbbdbab07cf22d381038a737bad1512f157e544009daa0c567",
+      "bytes": 152988
     },
     "assets/animals/spectacled-bear.jpg": {
       "sha256": "b6cec88d4e756f086e93a879abaa71620f89bb2eafab179a2953cabd87357bf9",
@@ -390,6 +570,14 @@
       "sha256": "2ba1f01459a8fdf2410e51edfc4702db832b24d7b1983c0a88bce809f7053ae0",
       "bytes": 150156
     },
+    "assets/animals/tasmanian-devil.jpg": {
+      "sha256": "71d99d353b746a677e1d3193ee0bcb832ac2986fe1229198311cc67cb8d2d992",
+      "bytes": 166290
+    },
+    "assets/animals/thomson-s-gazelle.jpg": {
+      "sha256": "73b4e0b76a561deedcdbba21a248d47414bd4c2df44187a2a59584e29d9395e0",
+      "bytes": 123912
+    },
     "assets/animals/tiger.jpg": {
       "sha256": "fdf23f8e4fc7384835b4d955307cc7bc83873d087a1b370ae0f9befd10dd568f",
       "bytes": 232511
@@ -402,9 +590,21 @@
       "sha256": "ce7836e84c7701c5b8f94016195260e266a65678df6ead9a16ebd897c76fee47",
       "bytes": 203279
     },
+    "assets/animals/visayan-warty-pig.jpg": {
+      "sha256": "ad28e515a0997e99e588ed5a966c57874c6a79ac4c68fe56dbef2ed285f003cd",
+      "bytes": 204011
+    },
+    "assets/animals/water-deer.jpg": {
+      "sha256": "8f706dea44946ba52f3f7633e4f52984b83d17e9a479b9386f867904535ea829",
+      "bytes": 238084
+    },
     "assets/animals/western-gorilla.jpg": {
       "sha256": "00e13c8300d77c4086752d127a3eb07c1fb921e4688e2b6861656e027970d08d",
       "bytes": 209495
+    },
+    "assets/animals/western-gray-kangaroo.jpg": {
+      "sha256": "91b8715712bf3c388e8b6fd32611f2e1e7c4a6ba0ffd140171095c1601a42661",
+      "bytes": 120153
     },
     "assets/animals/white-nosed-coati.jpg": {
       "sha256": "836286f516da26b1366a3d4c92cb5b76c29648371cadc78516b092e2f1b36f24",
@@ -415,12 +615,12 @@
       "bytes": 158095
     },
     "index.html": {
-      "sha256": "e6c6cbabee5276d363ea3ef78a31722f5c6d0df00c19834f82b15b454615b065",
+      "sha256": "a267b3bc1770c3c24d11f1acf2df792abb9877957d656723956f07ed87be2c1a",
       "bytes": 7929
     },
     "js/animals.js": {
-      "sha256": "431b81985785a3ede1b4487d31e38a95d3f642fea5a8940a1cd3ddc76830b501",
-      "bytes": 197352
+      "sha256": "9a4c1e28aa39a157afa6bef8df04e76bf87af02d013af272e0a5d1267d3b85c9",
+      "bytes": 281688
     },
     "js/app.js": {
       "sha256": "24f30abc151ef6b6ede67323b68c8d5899efd900da1af10005edf4f1790d92f3",

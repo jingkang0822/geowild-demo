@@ -38,7 +38,7 @@ const countryCodes = new Map(world.features.map(feature => [normalize(feature.pr
 for (const [name, code] of Object.entries(evidence.mapAliases)) countryCodes.set(normalize(name), code);
 
 test('every species answer is traceable to primary country data and explicit reviewed corrections', () => {
-  assert.equal(animals.length, 100);
+  assert.equal(animals.length, 150);
   assert.deepEqual(Object.keys(evidence.records).sort(), animals.map(a => a.id).sort());
   for (const animal of animals) {
     const record = evidence.records[animal.id];
@@ -67,9 +67,9 @@ test('every species answer is traceable to primary country data and explicit rev
   }
 });
 
-test('independent country label-coordinate fixtures fall inside all 157 accepted country geometries', () => {
+test('independent country label-coordinate fixtures fall inside all 160 accepted country geometries', () => {
   const accepted = [...new Set(animals.flatMap(animal => animal.nativeCountries))].sort();
-  assert.equal(accepted.length, 157);
+  assert.equal(accepted.length, 160);
   assert.deepEqual(Object.keys(anchors).sort(), accepted);
   for (const code of accepted) {
     assert.equal(E.distanceToCountries(anchors[code].point, [code], world).distanceKm, 0, `${code}: ${anchors[code].name}`);
@@ -88,7 +88,7 @@ test('every species accepts every sourced native country and rejects an open-Pac
     const outside = E.scoreGuess([-130, -40], animal, 0, world);
     assert.ok(outside.distanceKm > 0 && outside.points < 100, `${animal.id}: an outside guess cannot be correct`);
   }
-  assert.equal(pairs, 1214);
+  assert.equal(pairs, 1508);
 });
 
 test('introduced, extinct and uncertain populations do not become accidental answers', () => {

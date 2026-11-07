@@ -11,6 +11,16 @@
     "white-rhinoceros"
   ],
   "canonical": "data/animals.json",
-  "count": 100,
-  "original_project_mutations": false
+  "count": 150,
+  "original_project_mutations": false,
+  "expansion": {
+    "reviewedAt": "2026-11-07",
+    "originalSpecies": 100,
+    "originalRecordsSha256": "d575d6de62294ddd8d071fb505ef24310561b7cdef52deb936d9531ad4473f7c",
+    "addedSpecies": 50,
+    "familiar": 35,
+    "discovery": 15,
+    "selection": "Append source-verifiable species from the original candidate bank; Tasmanian devil and short-beaked echidna use the familiar tier. Keep the original 100 records unchanged.",
+    "rangeAuthority": "49 MDD v2.5 records and the Australian Museum southern cassowary account. The re-fetched dataset and country fixture hashes match the original release sources."
+  }
 }

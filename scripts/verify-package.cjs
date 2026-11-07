@@ -8,7 +8,7 @@ const context = vm.createContext({ window: {} });
 for (const file of ['js/world.js', 'js/animals.js']) vm.runInContext(fs.readFileSync(path.join(root, file), 'utf8'), context, { filename: file });
 const { ANIMALS: animals, WORLD_DATA: world } = JSON.parse(JSON.stringify(context.window));
 const codes = new Set(world.features.map(feature => feature.properties.code));
-assert.equal(animals.length, 100, 'The portfolio release has exactly 100 approved species');
+assert.equal(animals.length, 150, 'The portfolio release has exactly 150 approved species');
 assert.deepEqual(animals, JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/animals.json'), 'utf8')));
 assert.equal(new Set(animals.map(animal => animal.id)).size, animals.length);
 assert.equal(new Set(animals.map(animal => animal.scientificName)).size, animals.length);

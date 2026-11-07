@@ -4364,5 +4364,1664 @@ window.ANIMALS = [
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emu_1_-_Tidbinbilla.jpg",
       "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Emu_1_-_Tidbinbilla.jpg/960px-Emu_1_-_Tidbinbilla.jpg"
     }
+  },
+  {
+    "id": "giant-anteater",
+    "name": "Giant anteater",
+    "scientificName": "Myrmecophaga tridactyla",
+    "tier": "familiar",
+    "nativeCountries": [
+      "ARG",
+      "BOL",
+      "BRA",
+      "COL",
+      "CRI",
+      "ECU",
+      "FRA",
+      "GUY",
+      "HND",
+      "NIC",
+      "PAN",
+      "PER",
+      "PRY",
+      "SUR",
+      "VEN"
+    ],
+    "nativeLabel": "Argentina, Bolivia, Brazil, Colombia, Costa Rica, Ecuador, French Guiana (France), Guyana, Honduras, Nicaragua, Panama, Peru, Paraguay, Suriname, Venezuela",
+    "fact": "Giant anteaters have elongated snouts and large, bushy tails.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000442/"
+      },
+      {
+        "label": "Animal Diversity Web — species description",
+        "url": "https://animaldiversity.org/accounts/Myrmecophaga_tridactyla/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction. MDD uncertain-presence entries excluded: Belize?, El Salvador?, Guatemala?, Uruguay?.",
+    "image": "assets/animals/giant-anteater.jpg",
+    "alt": "Giant anteater (Myrmecophaga tridactyla)",
+    "photo": {
+      "author": "Malene Thyssen",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Myresluger2.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Myresluger2.jpg"
+    }
+  },
+  {
+    "id": "giant-armadillo",
+    "name": "Giant armadillo",
+    "scientificName": "Priodontes maximus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "ARG",
+      "BOL",
+      "BRA",
+      "COL",
+      "ECU",
+      "FRA",
+      "GUY",
+      "PER",
+      "PRY",
+      "SUR",
+      "VEN"
+    ],
+    "nativeLabel": "Argentina, Bolivia, Brazil, Colombia, Ecuador, French Guiana (France), Guyana, Peru, Paraguay, Suriname, Venezuela",
+    "fact": "Giant armadillos have a bony armour covering and an especially large central foreclaw.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000418/"
+      },
+      {
+        "label": "Animal Diversity Web — species description",
+        "url": "https://animaldiversity.org/accounts/Priodontes_maximus/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/giant-armadillo.jpg",
+    "alt": "Giant armadillo (Priodontes maximus)",
+    "photo": {
+      "author": "Guillaume Delaitre",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Priodontes_maximus_at_R%C3%A9gina.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Priodontes_maximus_at_R%C3%A9gina.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Priodontes_maximus_at_R%C3%A9gina.jpg/960px-Priodontes_maximus_at_R%C3%A9gina.jpg"
+    }
+  },
+  {
+    "id": "eastern-gray-kangaroo",
+    "name": "Eastern gray kangaroo",
+    "scientificName": "Macropus giganteus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AUS"
+    ],
+    "nativeLabel": "Australia",
+    "fact": "This species is native only to Australia.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000277/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/eastern-gray-kangaroo.jpg",
+    "alt": "Eastern gray kangaroo (Macropus giganteus)",
+    "photo": {
+      "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Macropus_giganteus_-_Brunkerville.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Macropus_giganteus_-_Brunkerville.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Macropus_giganteus_-_Brunkerville.jpg/960px-Macropus_giganteus_-_Brunkerville.jpg"
+    }
+  },
+  {
+    "id": "western-gray-kangaroo",
+    "name": "Western gray kangaroo",
+    "scientificName": "Macropus fuliginosus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AUS"
+    ],
+    "nativeLabel": "Australia",
+    "fact": "This species is native only to Australia.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000276/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/western-gray-kangaroo.jpg",
+    "alt": "Western gray kangaroo (Macropus fuliginosus)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Kangaroo_Island_Western_grey_kangaroo_%28Macropus_fuliginosus_fuliginosus%29_male.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kangaroo_Island_Western_grey_kangaroo_(Macropus_fuliginosus_fuliginosus)_male.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Kangaroo_Island_Western_grey_kangaroo_%28Macropus_fuliginosus_fuliginosus%29_male.jpg/960px-Kangaroo_Island_Western_grey_kangaroo_%28Macropus_fuliginosus_fuliginosus%29_male.jpg"
+    }
+  },
+  {
+    "id": "southern-cassowary",
+    "name": "Southern cassowary",
+    "scientificName": "Casuarius casuarius",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AUS",
+      "IDN",
+      "PNG"
+    ],
+    "nativeLabel": "Australia, Indonesia and Papua New Guinea",
+    "fact": "Male southern cassowaries incubate the eggs and raise the chicks.",
+    "sources": [
+      {
+        "label": "Australian Museum — southern cassowary distribution",
+        "url": "https://australian.museum/learn/animals/birds/southern-cassowary/"
+      }
+    ],
+    "image": "assets/animals/southern-cassowary.jpg",
+    "alt": "Southern cassowary (Casuarius casuarius)",
+    "photo": {
+      "author": "Summerdrought",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Southern_Cassowary_7071.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_Cassowary_7071.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Southern_Cassowary_7071.jpg/960px-Southern_Cassowary_7071.jpg"
+    }
+  },
+  {
+    "id": "american-bison",
+    "name": "American bison",
+    "scientificName": "Bos bison",
+    "tier": "familiar",
+    "nativeCountries": [
+      "CAN",
+      "MEX",
+      "USA"
+    ],
+    "nativeLabel": "Canada, Mexico, United States",
+    "fact": "American bison is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006256/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/american-bison.jpg",
+    "alt": "American bison (Bos bison)",
+    "photo": {
+      "author": "Jack Dykinga",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/American_bison_k5680-1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/American_bison_k5680-1.jpg/960px-American_bison_k5680-1.jpg"
+    }
+  },
+  {
+    "id": "european-bison",
+    "name": "European bison",
+    "scientificName": "Bos bonasus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "BGR",
+      "BLR",
+      "DEU",
+      "LTU",
+      "LVA",
+      "POL",
+      "ROU",
+      "RUS",
+      "SVK",
+      "UKR"
+    ],
+    "nativeLabel": "Bulgaria, Belarus, Germany, Lithuania, Latvia, Poland, Romania, Russia, Slovakia, Ukraine",
+    "fact": "European bison is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006257/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/european-bison.jpg",
+    "alt": "European bison (Bos bonasus)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/59/European_bison_%28Bison_bonasus%29_male_Bia%C5%82owieza.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:European_bison_(Bison_bonasus)_male_Bia%C5%82owieza.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/European_bison_%28Bison_bonasus%29_male_Bia%C5%82owieza.jpg/960px-European_bison_%28Bison_bonasus%29_male_Bia%C5%82owieza.jpg"
+    }
+  },
+  {
+    "id": "muskox",
+    "name": "Muskox",
+    "scientificName": "Ovibos moschatus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "CAN",
+      "GRL",
+      "USA"
+    ],
+    "nativeLabel": "Canada, Greenland, United States",
+    "fact": "Muskox is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006202/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/muskox.jpg",
+    "alt": "Muskox (Ovibos moschatus)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_4.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Muskox_(Ovibos_moschatus)_male_Dovrefjell_4.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_4.jpg/960px-Muskox_%28Ovibos_moschatus%29_male_Dovrefjell_4.jpg"
+    }
+  },
+  {
+    "id": "mountain-goat",
+    "name": "Mountain goat",
+    "scientificName": "Oreamnos americanus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "CAN",
+      "USA"
+    ],
+    "nativeLabel": "Canada, United States",
+    "fact": "Mountain goat is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006201/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/mountain-goat.jpg",
+    "alt": "Mountain goat (Oreamnos americanus)",
+    "photo": {
+      "author": "Adam Schneider",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/Mountain_Goat%2C_Enchantments_Basin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mountain_Goat,_Enchantments_Basin.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Mountain_Goat%2C_Enchantments_Basin.jpg/960px-Mountain_Goat%2C_Enchantments_Basin.jpg"
+    }
+  },
+  {
+    "id": "alpine-ibex",
+    "name": "Alpine ibex",
+    "scientificName": "Capra ibex",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AUT",
+      "CHE",
+      "DEU",
+      "FRA",
+      "ITA",
+      "LIE"
+    ],
+    "nativeLabel": "Austria, Switzerland, Germany, France, Italy, Liechtenstein",
+    "fact": "Alpine ibex is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006185/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/alpine-ibex.jpg",
+    "alt": "Alpine ibex (Capra ibex)",
+    "photo": {
+      "author": "Giles Laurent",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg/960px-003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg"
+    }
+  },
+  {
+    "id": "bighorn-sheep",
+    "name": "Bighorn sheep",
+    "scientificName": "Ovis canadensis",
+    "tier": "familiar",
+    "nativeCountries": [
+      "CAN",
+      "MEX",
+      "USA"
+    ],
+    "nativeLabel": "Canada, Mexico, United States",
+    "fact": "Bighorn sheep is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006205/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/bighorn-sheep.jpg",
+    "alt": "Bighorn sheep (Ovis canadensis)",
+    "photo": {
+      "author": "Jwanamaker",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/New_Mexico_Bighorn_Sheep.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Mexico_Bighorn_Sheep.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/New_Mexico_Bighorn_Sheep.JPG/960px-New_Mexico_Bighorn_Sheep.JPG"
+    }
+  },
+  {
+    "id": "mule-deer",
+    "name": "Mule deer",
+    "scientificName": "Odocoileus hemionus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "CAN",
+      "MEX",
+      "USA"
+    ],
+    "nativeLabel": "Canada, Mexico, United States",
+    "fact": "Mule deer is recognised as a distinct species in the family Cervidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006300/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/mule-deer.jpg",
+    "alt": "Mule deer (Odocoileus hemionus)",
+    "photo": {
+      "author": "Oregon Department of Fish & Wildlife",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Mule_buck_elk_creek_m_myatt_%285489214303%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mule_buck_elk_creek_m_myatt_(5489214303).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Mule_buck_elk_creek_m_myatt_%285489214303%29.jpg/960px-Mule_buck_elk_creek_m_myatt_%285489214303%29.jpg"
+    }
+  },
+  {
+    "id": "red-deer",
+    "name": "Red deer",
+    "scientificName": "Cervus elaphus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "ARM",
+      "AUT",
+      "AZE",
+      "BEL",
+      "BGR",
+      "BIH",
+      "BLR",
+      "CHE",
+      "CZE",
+      "DEU",
+      "DNK",
+      "DZA",
+      "ESP",
+      "EST",
+      "FRA",
+      "GBR",
+      "GEO",
+      "GRC",
+      "HRV",
+      "HUN",
+      "IRL",
+      "IRN",
+      "IRQ",
+      "ITA",
+      "LIE",
+      "LTU",
+      "LUX",
+      "LVA",
+      "MAR",
+      "MDA",
+      "MKD",
+      "MNE",
+      "NLD",
+      "NOR",
+      "POL",
+      "PRT",
+      "ROU",
+      "RUS",
+      "SRB",
+      "SVK",
+      "SVN",
+      "SWE",
+      "TUN",
+      "TUR",
+      "UKR"
+    ],
+    "nativeLabel": "Armenia, Austria, Azerbaijan, Belgium, Bulgaria, Bosnia and Herzegovina, Belarus, Switzerland, Czech Republic, Germany, Denmark, Algeria, Spain, Estonia, France, United Kingdom, Georgia, Greece, Croatia, Hungary, Ireland, Iran, Iraq, Italy, Liechtenstein, Lithuania, Luxembourg, Latvia, Morocco, Moldova, North Macedonia, Montenegro, Netherlands, Norway, Poland, Portugal, Romania, Russia, Serbia, Slovakia, Slovenia, Sweden, Tunisia, Turkey, Ukraine",
+    "fact": "Red deer is recognised as a distinct species in the family Cervidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006313/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/red-deer.jpg",
+    "alt": "Red deer (Cervus elaphus)",
+    "photo": {
+      "author": "Lviatour",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_6.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Cervus_elaphus_Luc_Viatour_6.jpg/960px-Cervus_elaphus_Luc_Viatour_6.jpg"
+    }
+  },
+  {
+    "id": "elk",
+    "name": "Elk",
+    "scientificName": "Cervus canadensis",
+    "tier": "familiar",
+    "nativeCountries": [
+      "BTN",
+      "CAN",
+      "CHN",
+      "KAZ",
+      "KGZ",
+      "MNG",
+      "RUS",
+      "USA"
+    ],
+    "nativeLabel": "Bhutan, Canada, China, Kazakhstan, Kyrgyzstan, Mongolia, Russia, United States",
+    "fact": "Elk is recognised as a distinct species in the family Cervidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006312/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/elk.jpg",
+    "alt": "Elk (Cervus canadensis)",
+    "photo": {
+      "author": "Membeth",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Jasper.Wapiti-Hirsch.P1033401.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jasper.Wapiti-Hirsch.P1033401.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Jasper.Wapiti-Hirsch.P1033401.jpg/960px-Jasper.Wapiti-Hirsch.P1033401.jpg"
+    }
+  },
+  {
+    "id": "sika-deer",
+    "name": "Sika deer",
+    "scientificName": "Cervus nippon",
+    "tier": "familiar",
+    "nativeCountries": [
+      "CHN",
+      "JPN",
+      "RUS",
+      "TWN",
+      "VNM"
+    ],
+    "nativeLabel": "China, Japan, Russia, Taiwan, Vietnam",
+    "fact": "Sika deer is recognised as a distinct species in the family Cervidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006315/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction. MDD uncertain-presence entries excluded: North Korea?.",
+    "image": "assets/animals/sika-deer.jpg",
+    "alt": "Sika deer (Cervus nippon)",
+    "photo": {
+      "author": "Lilly M",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Cervus_nippon_002.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cervus_nippon_002.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Cervus_nippon_002.jpg/960px-Cervus_nippon_002.jpg"
+    }
+  },
+  {
+    "id": "blackbuck",
+    "name": "Blackbuck",
+    "scientificName": "Antilope cervicapra",
+    "tier": "familiar",
+    "nativeCountries": [
+      "IND",
+      "NPL",
+      "PAK"
+    ],
+    "nativeLabel": "India, Nepal, Pakistan",
+    "fact": "Blackbuck is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006139/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/blackbuck.jpg",
+    "alt": "Blackbuck (Antilope cervicapra)",
+    "photo": {
+      "author": "Mr Raja Purohit",
+      "license": "CC BY-SA 2.5",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Blackbuck_male_female.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blackbuck_male_female.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Blackbuck_male_female.jpg"
+    }
+  },
+  {
+    "id": "impala",
+    "name": "Impala",
+    "scientificName": "Aepyceros melampus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AGO",
+      "BWA",
+      "COD",
+      "KEN",
+      "MOZ",
+      "MWI",
+      "NAM",
+      "RWA",
+      "SWZ",
+      "TZA",
+      "UGA",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ],
+    "nativeLabel": "Angola, Botswana, Democratic Republic of the Congo, Kenya, Mozambique, Malawi, Namibia, Rwanda, Eswatini, Tanzania, Uganda, South Africa, Zambia, Zimbabwe",
+    "fact": "Impala is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006130/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/impala.jpg",
+    "alt": "Impala (Aepyceros melampus)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Common_impala_%28Aepyceros_melampus_melampus%29_male_Serengeti.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Common_impala_(Aepyceros_melampus_melampus)_male_Serengeti.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Common_impala_%28Aepyceros_melampus_melampus%29_male_Serengeti.jpg/960px-Common_impala_%28Aepyceros_melampus_melampus%29_male_Serengeti.jpg"
+    }
+  },
+  {
+    "id": "thomson-s-gazelle",
+    "name": "Thomson's gazelle",
+    "scientificName": "Eudorcas thomsonii",
+    "tier": "familiar",
+    "nativeCountries": [
+      "KEN",
+      "TZA"
+    ],
+    "nativeLabel": "Kenya, Tanzania",
+    "fact": "Thomson's gazelle is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006143/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/thomson-s-gazelle.jpg",
+    "alt": "Thomson's gazelle (Eudorcas thomsonii)",
+    "photo": {
+      "author": "Diego Delso",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Gacela_de_Thomson_%28Eudorcas_thomsonii%29%2C_parque_nacional_de_Amboseli%2C_Kenia%2C_2024-05-23%2C_DD_11.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gacela_de_Thomson_(Eudorcas_thomsonii),_parque_nacional_de_Amboseli,_Kenia,_2024-05-23,_DD_11.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Gacela_de_Thomson_%28Eudorcas_thomsonii%29%2C_parque_nacional_de_Amboseli%2C_Kenia%2C_2024-05-23%2C_DD_11.jpg/960px-Gacela_de_Thomson_%28Eudorcas_thomsonii%29%2C_parque_nacional_de_Amboseli%2C_Kenia%2C_2024-05-23%2C_DD_11.jpg"
+    }
+  },
+  {
+    "id": "southern-giraffe",
+    "name": "Southern giraffe",
+    "scientificName": "Giraffa giraffa",
+    "tier": "familiar",
+    "nativeCountries": [
+      "BWA",
+      "MOZ",
+      "NAM",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ],
+    "nativeLabel": "Botswana, Mozambique, Namibia, South Africa, Zambia, Zimbabwe",
+    "fact": "Southern giraffe is recognised as a distinct species in the family Giraffidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006341/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/southern-giraffe.jpg",
+    "alt": "Southern giraffe (Giraffa giraffa)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Angolan_giraffe_%28Giraffa_camelopardalis_angolensis%29_males.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angolan_giraffe_(Giraffa_camelopardalis_angolensis)_males.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Angolan_giraffe_%28Giraffa_camelopardalis_angolensis%29_males.jpg/960px-Angolan_giraffe_%28Giraffa_camelopardalis_angolensis%29_males.jpg"
+    }
+  },
+  {
+    "id": "reticulated-giraffe",
+    "name": "Reticulated giraffe",
+    "scientificName": "Giraffa reticulata",
+    "tier": "familiar",
+    "nativeCountries": [
+      "ETH",
+      "KEN",
+      "SOM"
+    ],
+    "nativeLabel": "Ethiopia, Kenya, Somalia",
+    "fact": "Reticulated giraffe is recognised as a distinct species in the family Giraffidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006553/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/reticulated-giraffe.jpg",
+    "alt": "Reticulated giraffe (Giraffa reticulata)",
+    "photo": {
+      "author": "Relative of Brandt Luke Zorn, most likely his father.",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Two_Giraffes.PNG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Two_Giraffes.PNG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Two_Giraffes.PNG/960px-Two_Giraffes.PNG"
+    }
+  },
+  {
+    "id": "masai-giraffe",
+    "name": "Masai giraffe",
+    "scientificName": "Giraffa tippelskirchi",
+    "tier": "familiar",
+    "nativeCountries": [
+      "KEN",
+      "TZA",
+      "ZMB"
+    ],
+    "nativeLabel": "Kenya, Tanzania, Zambia",
+    "fact": "Masai giraffe is recognised as a distinct species in the family Giraffidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006342/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/masai-giraffe.jpg",
+    "alt": "Masai giraffe (Giraffa tippelskirchi)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Masai_giraffes_(Giraffa_tippelskirchi)_Arusha.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg/960px-Masai_giraffes_%28Giraffa_tippelskirchi%29_Arusha.jpg"
+    }
+  },
+  {
+    "id": "northern-giraffe",
+    "name": "Northern giraffe",
+    "scientificName": "Giraffa camelopardalis",
+    "tier": "familiar",
+    "nativeCountries": [
+      "CAF",
+      "CMR",
+      "COD",
+      "KEN",
+      "NER",
+      "SDN",
+      "SDS",
+      "TCD",
+      "UGA"
+    ],
+    "nativeLabel": "Central African Republic, Cameroon, Democratic Republic of the Congo, Kenya, Niger, Sudan, South Sudan, Chad, Uganda",
+    "fact": "Northern giraffe is recognised as a distinct species in the family Giraffidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006340/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/northern-giraffe.jpg",
+    "alt": "Northern giraffe (Giraffa camelopardalis)",
+    "photo": {
+      "author": "Thomas Fuhrmann",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Rothschild%27s_giraffe_%28Giraffa_camelopardalis_rothschildi%29_-_Murchison_Falls_National_Park.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rothschild%27s_giraffe_(Giraffa_camelopardalis_rothschildi)_-_Murchison_Falls_National_Park.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Rothschild%27s_giraffe_%28Giraffa_camelopardalis_rothschildi%29_-_Murchison_Falls_National_Park.jpg/960px-Rothschild%27s_giraffe_%28Giraffa_camelopardalis_rothschildi%29_-_Murchison_Falls_National_Park.jpg"
+    }
+  },
+  {
+    "id": "blue-wildebeest",
+    "name": "Blue wildebeest",
+    "scientificName": "Connochaetes taurinus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AGO",
+      "BWA",
+      "KEN",
+      "MOZ",
+      "NAM",
+      "SWZ",
+      "TZA",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ],
+    "nativeLabel": "Angola, Botswana, Kenya, Mozambique, Namibia, Eswatini, Tanzania, South Africa, Zambia, Zimbabwe",
+    "fact": "Blue wildebeest is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006134/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/blue-wildebeest.jpg",
+    "alt": "Blue wildebeest (Connochaetes taurinus)",
+    "photo": {
+      "author": "Olga Ernst",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Blue_wildebeest_at_Etosha_National_Park.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blue_wildebeest_at_Etosha_National_Park.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Blue_wildebeest_at_Etosha_National_Park.jpg/960px-Blue_wildebeest_at_Etosha_National_Park.jpg"
+    }
+  },
+  {
+    "id": "black-wildebeest",
+    "name": "Black wildebeest",
+    "scientificName": "Connochaetes gnou",
+    "tier": "familiar",
+    "nativeCountries": [
+      "LSO",
+      "SWZ",
+      "ZAF"
+    ],
+    "nativeLabel": "Lesotho, Eswatini, South Africa",
+    "fact": "Black wildebeest is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006133/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/black-wildebeest.jpg",
+    "alt": "Black wildebeest (Connochaetes gnou)",
+    "photo": {
+      "author": "Bernard DUPONT from FRANCE",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Black_Wildebeest_%28Connochaetes_gnou%29_%2831746882054%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Black_Wildebeest_(Connochaetes_gnou)_(31746882054).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Black_Wildebeest_%28Connochaetes_gnou%29_%2831746882054%29.jpg/960px-Black_Wildebeest_%28Connochaetes_gnou%29_%2831746882054%29.jpg"
+    }
+  },
+  {
+    "id": "greater-kudu",
+    "name": "Greater kudu",
+    "scientificName": "Tragelaphus strepsiceros",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AGO",
+      "BWA",
+      "CAF",
+      "COD",
+      "ERI",
+      "ETH",
+      "KEN",
+      "MOZ",
+      "MWI",
+      "NAM",
+      "SDN",
+      "SDS",
+      "SWZ",
+      "TCD",
+      "TZA",
+      "UGA",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ],
+    "nativeLabel": "Angola, Botswana, Central African Republic, Democratic Republic of the Congo, Eritrea, Ethiopia, Kenya, Mozambique, Malawi, Namibia, Sudan, South Sudan, Eswatini, Chad, Tanzania, Uganda, South Africa, Zambia, Zimbabwe",
+    "fact": "Greater kudu is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006283/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction. MDD uncertain-presence entries excluded: Djibouti?, Somalia?.",
+    "image": "assets/animals/greater-kudu.jpg",
+    "alt": "Greater kudu (Tragelaphus strepsiceros)",
+    "photo": {
+      "author": "L0k1m0nk33 at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Male_greater_kudu.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Male_greater_kudu.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Male_greater_kudu.jpg/960px-Male_greater_kudu.jpg"
+    }
+  },
+  {
+    "id": "common-warthog",
+    "name": "Common warthog",
+    "scientificName": "Phacochoerus africanus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AGO",
+      "BDI",
+      "BEN",
+      "BFA",
+      "BWA",
+      "CAF",
+      "CIV",
+      "CMR",
+      "COD",
+      "DJI",
+      "ERI",
+      "ETH",
+      "GHA",
+      "GIN",
+      "GMB",
+      "GNB",
+      "KEN",
+      "LBR",
+      "LSO",
+      "MLI",
+      "MOZ",
+      "MRT",
+      "MWI",
+      "NAM",
+      "NER",
+      "NGA",
+      "RWA",
+      "SDN",
+      "SDS",
+      "SEN",
+      "SLE",
+      "SOM",
+      "SWZ",
+      "TCD",
+      "TGO",
+      "TZA",
+      "UGA",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ],
+    "nativeLabel": "Angola, Burundi, Benin, Burkina Faso, Botswana, Central African Republic, Côte d'Ivoire, Cameroon, Democratic Republic of the Congo, Djibouti, Eritrea, Ethiopia, Ghana, Guinea, Gambia, Guinea-Bissau, Kenya, Liberia, Lesotho, Mali, Mozambique, Mauritania, Malawi, Namibia, Niger, Nigeria, Rwanda, Sudan, South Sudan, Senegal, Sierra Leone, Somalia, Eswatini, Chad, Togo, Tanzania, Uganda, South Africa, Zambia, Zimbabwe",
+    "fact": "Common warthog is recognised as a distinct species in the family Suidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006366/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/common-warthog.jpg",
+    "alt": "Common warthog (Phacochoerus africanus)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Southern_warthog_%28Phacochoerus_africanus_sundevallii%29_male.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_warthog_(Phacochoerus_africanus_sundevallii)_male.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Southern_warthog_%28Phacochoerus_africanus_sundevallii%29_male.jpg/960px-Southern_warthog_%28Phacochoerus_africanus_sundevallii%29_male.jpg"
+    }
+  },
+  {
+    "id": "black-and-white-ruffed-lemur",
+    "name": "Black-and-white ruffed lemur",
+    "scientificName": "Varecia variegata",
+    "tier": "familiar",
+    "nativeCountries": [
+      "MDG"
+    ],
+    "nativeLabel": "Madagascar",
+    "fact": "This species is native only to Madagascar.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1001011/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/black-and-white-ruffed-lemur.jpg",
+    "alt": "Black-and-white ruffed lemur (Varecia variegata)",
+    "photo": {
+      "author": "Chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/1_black_and_white_ruffed_lemur.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_black_and_white_ruffed_lemur.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/1_black_and_white_ruffed_lemur.jpg/960px-1_black_and_white_ruffed_lemur.jpg"
+    }
+  },
+  {
+    "id": "red-ruffed-lemur",
+    "name": "Red ruffed lemur",
+    "scientificName": "Varecia rubra",
+    "tier": "familiar",
+    "nativeCountries": [
+      "MDG"
+    ],
+    "nativeLabel": "Madagascar",
+    "fact": "This species is native only to Madagascar.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1001010/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/red-ruffed-lemur.jpg",
+    "alt": "Red ruffed lemur (Varecia rubra)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Red_ruffed_lemur_%28Varecia_rubra%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Red_ruffed_lemur_(Varecia_rubra).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Red_ruffed_lemur_%28Varecia_rubra%29.jpg/960px-Red_ruffed_lemur_%28Varecia_rubra%29.jpg"
+    }
+  },
+  {
+    "id": "indri",
+    "name": "Indri",
+    "scientificName": "Indri indri",
+    "tier": "familiar",
+    "nativeCountries": [
+      "MDG"
+    ],
+    "nativeLabel": "Madagascar",
+    "fact": "This species is native only to Madagascar.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000981/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/indri.jpg",
+    "alt": "Indri (Indri indri)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Indri_%28Indri_indri%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indri_(Indri_indri).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Indri_%28Indri_indri%29.jpg/960px-Indri_%28Indri_indri%29.jpg"
+    }
+  },
+  {
+    "id": "aye-aye",
+    "name": "Aye-aye",
+    "scientificName": "Daubentonia madagascariensis",
+    "tier": "familiar",
+    "nativeCountries": [
+      "MDG"
+    ],
+    "nativeLabel": "Madagascar",
+    "fact": "This species is native only to Madagascar.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000929/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/aye-aye.jpg",
+    "alt": "Aye-aye (Daubentonia madagascariensis)",
+    "photo": {
+      "author": "nomis-simon",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Wild_aye_aye.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wild_aye_aye.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Wild_aye_aye.jpg/960px-Wild_aye_aye.jpg"
+    }
+  },
+  {
+    "id": "philippine-tarsier",
+    "name": "Philippine tarsier",
+    "scientificName": "Carlito syrichta",
+    "tier": "familiar",
+    "nativeCountries": [
+      "PHL"
+    ],
+    "nativeLabel": "Philippines",
+    "fact": "This species is native only to Philippines.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000915/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/philippine-tarsier.jpg",
+    "alt": "Philippine tarsier (Carlito syrichta)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Philippine_tarsier_%28Carlito_syrichta_fraterculus%29_Bohol.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philippine_tarsier_(Carlito_syrichta_fraterculus)_Bohol.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Philippine_tarsier_%28Carlito_syrichta_fraterculus%29_Bohol.jpg/960px-Philippine_tarsier_%28Carlito_syrichta_fraterculus%29_Bohol.jpg"
+    }
+  },
+  {
+    "id": "mandrill",
+    "name": "Mandrill",
+    "scientificName": "Mandrillus sphinx",
+    "tier": "familiar",
+    "nativeCountries": [
+      "CMR",
+      "COG",
+      "GAB",
+      "GNQ"
+    ],
+    "nativeLabel": "Cameroon, Republic of the Congo, Gabon, Equatorial Guinea",
+    "fact": "Mandrill is recognised as a distinct species in the family Cercopithecidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000627/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/mandrill.jpg",
+    "alt": "Mandrill (Mandrillus sphinx)",
+    "photo": {
+      "author": "Katma0601",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mandrill_Albert_September_2015_Zoo_Berlin_(2).jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg/960px-Mandrill_Albert_September_2015_Zoo_Berlin_%282%29.jpg"
+    }
+  },
+  {
+    "id": "siamang",
+    "name": "Siamang",
+    "scientificName": "Symphalangus syndactylus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "IDN",
+      "MYS",
+      "THA"
+    ],
+    "nativeLabel": "Indonesia, Malaysia, Thailand",
+    "fact": "Siamang is recognised as a distinct species in the family Hylobatidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000743/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/siamang.jpg",
+    "alt": "Siamang (Symphalangus syndactylus)",
+    "photo": {
+      "author": "Rufus46",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Siamang_Tierpark_Hellabrunn-4.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Siamang_Tierpark_Hellabrunn-4.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Siamang_Tierpark_Hellabrunn-4.jpg/960px-Siamang_Tierpark_Hellabrunn-4.jpg"
+    }
+  },
+  {
+    "id": "tasmanian-devil",
+    "name": "Tasmanian devil",
+    "scientificName": "Sarcophilus harrisii",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AUS"
+    ],
+    "nativeLabel": "Australia",
+    "fact": "This species is native only to Australia.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000166/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/tasmanian-devil.jpg",
+    "alt": "Tasmanian devil (Sarcophilus harrisii)",
+    "photo": {
+      "author": "JJ Harrison ( https://www.jjharrison.com.au/ )",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sarcophilus_harrisii_taranna.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarcophilus_harrisii_taranna.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Sarcophilus_harrisii_taranna.jpg/960px-Sarcophilus_harrisii_taranna.jpg"
+    }
+  },
+  {
+    "id": "short-beaked-echidna",
+    "name": "Short-beaked echidna",
+    "scientificName": "Tachyglossus aculeatus",
+    "tier": "familiar",
+    "nativeCountries": [
+      "AUS",
+      "IDN",
+      "PNG"
+    ],
+    "nativeLabel": "Australia, Indonesia, Papua New Guinea",
+    "fact": "Short-beaked echidna is recognised as a distinct species in the family Tachyglossidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000002/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/short-beaked-echidna.jpg",
+    "alt": "Short-beaked echidna (Tachyglossus aculeatus)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Short-beaked_echidna_%28Tachyglossus_aculeatus_setosus%29_Scottsdale.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Short-beaked_echidna_(Tachyglossus_aculeatus_setosus)_Scottsdale.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Short-beaked_echidna_%28Tachyglossus_aculeatus_setosus%29_Scottsdale.jpg/960px-Short-beaked_echidna_%28Tachyglossus_aculeatus_setosus%29_Scottsdale.jpg"
+    }
+  },
+  {
+    "id": "southern-tamandua",
+    "name": "Southern tamandua",
+    "scientificName": "Tamandua tetradactyla",
+    "tier": "discovery",
+    "nativeCountries": [
+      "ARG",
+      "BOL",
+      "BRA",
+      "COL",
+      "ECU",
+      "FRA",
+      "GUY",
+      "PER",
+      "PRY",
+      "SUR",
+      "TTO",
+      "URY",
+      "VEN"
+    ],
+    "nativeLabel": "Argentina, Bolivia, Brazil, Colombia, Ecuador, French Guiana (France), Guyana, Peru, Paraguay, Suriname, Trinidad and Tobago, Uruguay, Venezuela",
+    "fact": "Southern tamanduas vary in colour, with many wearing dark, vest-like markings.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000444/"
+      },
+      {
+        "label": "Animal Diversity Web — species description",
+        "url": "https://animaldiversity.org/accounts/Tamandua_tetradactyla/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/southern-tamandua.jpg",
+    "alt": "Southern tamandua (Tamandua tetradactyla)",
+    "photo": {
+      "author": "Sinara Conessa",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/T_tetradactyla_1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/T_tetradactyla_1.jpg"
+    }
+  },
+  {
+    "id": "red-slender-loris",
+    "name": "Red slender loris",
+    "scientificName": "Loris tardigradus",
+    "tier": "discovery",
+    "nativeCountries": [
+      "LKA"
+    ],
+    "nativeLabel": "Sri Lanka",
+    "fact": "This species is native only to Sri Lanka.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1001060/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/red-slender-loris.jpg",
+    "alt": "Red slender loris (Loris tardigradus)",
+    "photo": {
+      "author": "Dr. K.A.I. Nekaris",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Loris_tardigradus_tardigradus_001.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loris_tardigradus_tardigradus_001.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Loris_tardigradus_tardigradus_001.jpg/960px-Loris_tardigradus_tardigradus_001.jpg"
+    }
+  },
+  {
+    "id": "southern-three-banded-armadillo",
+    "name": "Southern three-banded armadillo",
+    "scientificName": "Tolypeutes matacus",
+    "tier": "discovery",
+    "nativeCountries": [
+      "ARG",
+      "BOL",
+      "BRA",
+      "PRY"
+    ],
+    "nativeLabel": "Argentina, Bolivia, Brazil, Paraguay",
+    "fact": "Southern three-banded armadillos have thick armour usually divided into three movable bands.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000419/"
+      },
+      {
+        "label": "Animal Diversity Web — species description",
+        "url": "https://animaldiversity.org/accounts/Tolypeutes_matacus/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/southern-three-banded-armadillo.jpg",
+    "alt": "Southern three-banded armadillo (Tolypeutes matacus)",
+    "photo": {
+      "author": "SouthernThreeBandedArmadillo065.jpg : Ltshears derivative work: WolfmanSF ( talk )",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/09/SouthernThreeBandedArmadillo065b.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SouthernThreeBandedArmadillo065b.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/SouthernThreeBandedArmadillo065b.jpg/960px-SouthernThreeBandedArmadillo065b.jpg"
+    }
+  },
+  {
+    "id": "southern-hairy-nosed-wombat",
+    "name": "Southern hairy-nosed wombat",
+    "scientificName": "Lasiorhinus latifrons",
+    "tier": "discovery",
+    "nativeCountries": [
+      "AUS"
+    ],
+    "nativeLabel": "Australia",
+    "fact": "This species is native only to Australia.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000406/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/southern-hairy-nosed-wombat.jpg",
+    "alt": "Southern hairy-nosed wombat (Lasiorhinus latifrons)",
+    "photo": {
+      "author": "Jason Pratt",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Southern_Hairy-nosed_Wombat.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Southern_Hairy-nosed_Wombat.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Southern_Hairy-nosed_Wombat.jpg/960px-Southern_Hairy-nosed_Wombat.jpg"
+    }
+  },
+  {
+    "id": "goodfellow-s-tree-kangaroo",
+    "name": "Goodfellow's tree-kangaroo",
+    "scientificName": "Dendrolagus goodfellowi",
+    "tier": "discovery",
+    "nativeCountries": [
+      "PNG"
+    ],
+    "nativeLabel": "Papua New Guinea",
+    "fact": "This species is native only to Papua New Guinea.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000254/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/goodfellow-s-tree-kangaroo.jpg",
+    "alt": "Goodfellow's tree-kangaroo (Dendrolagus goodfellowi)",
+    "photo": {
+      "author": "Tim Williams",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/56/Tree_kangaroo2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tree_kangaroo2.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Tree_kangaroo2.jpg/960px-Tree_kangaroo2.jpg"
+    }
+  },
+  {
+    "id": "gaur",
+    "name": "Gaur",
+    "scientificName": "Bos gaurus",
+    "tier": "discovery",
+    "nativeCountries": [
+      "BTN",
+      "CHN",
+      "IND",
+      "KHM",
+      "LAO",
+      "MMR",
+      "MYS",
+      "NPL",
+      "THA",
+      "VNM"
+    ],
+    "nativeLabel": "Bhutan, China, India, Cambodia, Laos, Myanmar, Malaysia, Nepal, Thailand, Vietnam",
+    "fact": "Gaur is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006260/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction. MDD uncertain-presence entries excluded: Bangladesh?.",
+    "image": "assets/animals/gaur.jpg",
+    "alt": "Gaur (Bos gaurus)",
+    "photo": {
+      "author": "PJeganathan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Indian_Gaur_from_anaimalai_hills_JEG5290.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indian_Gaur_from_anaimalai_hills_JEG5290.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Indian_Gaur_from_anaimalai_hills_JEG5290.jpg/960px-Indian_Gaur_from_anaimalai_hills_JEG5290.jpg"
+    }
+  },
+  {
+    "id": "banteng",
+    "name": "Banteng",
+    "scientificName": "Bos javanicus",
+    "tier": "discovery",
+    "nativeCountries": [
+      "IDN",
+      "KHM",
+      "MMR",
+      "MYS",
+      "THA",
+      "VNM"
+    ],
+    "nativeLabel": "Indonesia, Cambodia, Myanmar, Malaysia, Thailand, Vietnam",
+    "fact": "Banteng is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006263/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction. MDD uncertain-presence entries excluded: China?, Laos?.",
+    "image": "assets/animals/banteng.jpg",
+    "alt": "Banteng (Bos javanicus)",
+    "photo": {
+      "author": "Buyung Sukananda",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Banteng_Alas_Purwo.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Banteng_Alas_Purwo.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Banteng_Alas_Purwo.jpg/960px-Banteng_Alas_Purwo.jpg"
+    }
+  },
+  {
+    "id": "iberian-ibex",
+    "name": "Iberian ibex",
+    "scientificName": "Capra pyrenaica",
+    "tier": "discovery",
+    "nativeCountries": [
+      "ESP",
+      "PRT"
+    ],
+    "nativeLabel": "Spain, Portugal",
+    "fact": "Iberian ibex is recognised as a distinct species in the family Bovidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006187/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/iberian-ibex.jpg",
+    "alt": "Iberian ibex (Capra pyrenaica)",
+    "photo": {
+      "author": "Juan Lacruz",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Cabra_mont%C3%A9s_2%2C_cropped_and_brightened.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cabra_mont%C3%A9s_2,_cropped_and_brightened.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Cabra_mont%C3%A9s_2%2C_cropped_and_brightened.jpg/960px-Cabra_mont%C3%A9s_2%2C_cropped_and_brightened.jpg"
+    }
+  },
+  {
+    "id": "water-deer",
+    "name": "Water deer",
+    "scientificName": "Hydropotes inermis",
+    "tier": "discovery",
+    "nativeCountries": [
+      "CHN",
+      "KOR",
+      "PRK"
+    ],
+    "nativeLabel": "China, South Korea, North Korea",
+    "fact": "Water deer is recognised as a distinct species in the family Cervidae.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006288/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/water-deer.jpg",
+    "alt": "Water deer (Hydropotes inermis)",
+    "photo": {
+      "author": "Altaileopard",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Hydropotes_inermis_male.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hydropotes_inermis_male.JPG",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Hydropotes_inermis_male.JPG/960px-Hydropotes_inermis_male.JPG"
+    }
+  },
+  {
+    "id": "north-sulawesi-babirusa",
+    "name": "North Sulawesi babirusa",
+    "scientificName": "Babyrousa celebensis",
+    "tier": "discovery",
+    "nativeCountries": [
+      "IDN"
+    ],
+    "nativeLabel": "Indonesia",
+    "fact": "This species is native only to Indonesia.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006362/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/north-sulawesi-babirusa.jpg",
+    "alt": "North Sulawesi babirusa (Babyrousa celebensis)",
+    "photo": {
+      "author": "Masteraah at German Wikipedia",
+      "license": "CC BY-SA 2.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.en",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hirscheber1a.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hirscheber1a.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Hirscheber1a.jpg/960px-Hirscheber1a.jpg"
+    }
+  },
+  {
+    "id": "visayan-warty-pig",
+    "name": "Visayan warty pig",
+    "scientificName": "Sus cebifrons",
+    "tier": "discovery",
+    "nativeCountries": [
+      "PHL"
+    ],
+    "nativeLabel": "Philippines",
+    "fact": "This species is native only to Philippines.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1006372/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/visayan-warty-pig.jpg",
+    "alt": "Visayan warty pig (Sus cebifrons)",
+    "photo": {
+      "author": "Ltshears",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/89/VisayanWartyPig01.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:VisayanWartyPig01.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/VisayanWartyPig01.jpg/960px-VisayanWartyPig01.jpg"
+    }
+  },
+  {
+    "id": "cotton-top-tamarin",
+    "name": "Cotton-top tamarin",
+    "scientificName": "Saguinus oedipus",
+    "tier": "discovery",
+    "nativeCountries": [
+      "COL"
+    ],
+    "nativeLabel": "Colombia",
+    "fact": "This species is native only to Colombia.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000824/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/cotton-top-tamarin.jpg",
+    "alt": "Cotton-top tamarin (Saguinus oedipus)",
+    "photo": {
+      "author": "Chensiyuan",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/1_cotton_top_tamarin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_cotton_top_tamarin.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/1_cotton_top_tamarin.jpg/960px-1_cotton_top_tamarin.jpg"
+    }
+  },
+  {
+    "id": "gelada",
+    "name": "Gelada",
+    "scientificName": "Theropithecus gelada",
+    "tier": "discovery",
+    "nativeCountries": [
+      "ETH"
+    ],
+    "nativeLabel": "Ethiopia",
+    "fact": "This species is native only to Ethiopia.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000635/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/gelada.jpg",
+    "alt": "Gelada (Theropithecus gelada)",
+    "photo": {
+      "author": "Charles J. Sharp",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gelada_(Theropithecus_gelada_gelada)_male_2.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg/960px-Gelada_%28Theropithecus_gelada_gelada%29_male_2.jpg"
+    }
+  },
+  {
+    "id": "lion-tailed-macaque",
+    "name": "Lion-tailed macaque",
+    "scientificName": "Macaca silenus",
+    "tier": "discovery",
+    "nativeCountries": [
+      "IND"
+    ],
+    "nativeLabel": "India",
+    "fact": "This species is native only to India.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000621/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/lion-tailed-macaque.jpg",
+    "alt": "Lion-tailed macaque (Macaca silenus)",
+    "photo": {
+      "author": "Chris huh",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Lion-tailed_Macaque_in_Bristol_Zoo.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lion-tailed_Macaque_in_Bristol_Zoo.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Lion-tailed_Macaque_in_Bristol_Zoo.jpg/960px-Lion-tailed_Macaque_in_Bristol_Zoo.jpg"
+    }
+  },
+  {
+    "id": "silvery-gibbon",
+    "name": "Silvery gibbon",
+    "scientificName": "Hylobates moloch",
+    "tier": "discovery",
+    "nativeCountries": [
+      "IDN"
+    ],
+    "nativeLabel": "Indonesia",
+    "fact": "This species is native only to Indonesia.",
+    "sources": [
+      {
+        "label": "ASM Mammal Diversity Database — species and country distribution",
+        "url": "https://www.mammaldiversity.org/taxon/1000733/"
+      }
+    ],
+    "rangeNotes": "MDD v2.5 (2026-07-28) countryDistribution: all definite country-presence entries retained unless a supplemental source explicitly corrects them; MDD excludes recent introductions but may retain ancient introductions. Country polygons approximate range; this is a source-reported country list, not a claim of occupancy throughout each country. Ancient-introduction taxa are avoided or require a documented correction.",
+    "image": "assets/animals/silvery-gibbon.jpg",
+    "alt": "Silvery gibbon (Hylobates moloch)",
+    "photo": {
+      "author": "Hamas Fathani",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Moloch-20210525-Ctb.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moloch-20210525-Ctb.jpg",
+      "downloadUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Moloch-20210525-Ctb.jpg/960px-Moloch-20210525-Ctb.jpg"
+    }
   }
 ];

@@ -2562,7 +2562,963 @@
       ],
       "source": "https://australian.museum/learn/animals/birds/emu/",
       "review": "Australian Museum identifies its native distribution as Australia only."
+    },
+    "giant-anteater": {
+      "scientificName": "Myrmecophaga tridactyla",
+      "authority": "MDD v2.5",
+      "mddId": "1000442",
+      "mddScientificName": "Myrmecophaga tridactyla",
+      "countryDistribution": "Argentina|Bolivia|Brazil|Colombia|Costa Rica|Ecuador|French Guiana|Guyana|Honduras|Nicaragua|Panama|Paraguay|Peru|Suriname|Venezuela|Belize?|El Salvador?|Guatemala?|Uruguay?",
+      "expectedCountries": [
+        "ARG",
+        "BOL",
+        "BRA",
+        "COL",
+        "CRI",
+        "ECU",
+        "FRA",
+        "GUY",
+        "HND",
+        "NIC",
+        "PAN",
+        "PER",
+        "PRY",
+        "SUR",
+        "VEN"
+      ],
+      "excludedUncertainCountries": [
+        "Belize?",
+        "El Salvador?",
+        "Guatemala?",
+        "Uruguay?"
+      ],
+      "source": "https://www.mammaldiversity.org/taxon/1000442/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "giant-armadillo": {
+      "scientificName": "Priodontes maximus",
+      "authority": "MDD v2.5",
+      "mddId": "1000418",
+      "mddScientificName": "Priodontes maximus",
+      "countryDistribution": "Argentina|Bolivia|Brazil|Colombia|Ecuador|French Guiana|Guyana|Paraguay|Peru|Suriname|Venezuela",
+      "expectedCountries": [
+        "ARG",
+        "BOL",
+        "BRA",
+        "COL",
+        "ECU",
+        "FRA",
+        "GUY",
+        "PER",
+        "PRY",
+        "SUR",
+        "VEN"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000418/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "eastern-gray-kangaroo": {
+      "scientificName": "Macropus giganteus",
+      "authority": "MDD v2.5",
+      "mddId": "1000277",
+      "mddScientificName": "Macropus giganteus",
+      "countryDistribution": "Australia",
+      "expectedCountries": [
+        "AUS"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000277/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "western-gray-kangaroo": {
+      "scientificName": "Macropus fuliginosus",
+      "authority": "MDD v2.5",
+      "mddId": "1000276",
+      "mddScientificName": "Macropus fuliginosus",
+      "countryDistribution": "Australia",
+      "expectedCountries": [
+        "AUS"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000276/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "southern-cassowary": {
+      "scientificName": "Casuarius casuarius",
+      "authority": "Species-specific primary conservation authority",
+      "expectedCountries": [
+        "AUS",
+        "IDN",
+        "PNG"
+      ],
+      "source": "https://australian.museum/learn/animals/birds/southern-cassowary/",
+      "review": "Australian Museum identifies north-eastern Australia, New Guinea and eastern Indonesia; New Guinea spans Indonesia and Papua New Guinea.",
+      "reviewedAt": "2026-11-07"
+    },
+    "american-bison": {
+      "scientificName": "Bos bison",
+      "authority": "MDD v2.5",
+      "mddId": "1006256",
+      "mddScientificName": "Bos bison",
+      "countryDistribution": "Canada|Mexico|United States",
+      "expectedCountries": [
+        "CAN",
+        "MEX",
+        "USA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006256/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "european-bison": {
+      "scientificName": "Bos bonasus",
+      "authority": "MDD v2.5",
+      "mddId": "1006257",
+      "mddScientificName": "Bos bonasus",
+      "countryDistribution": "Belarus|Bulgaria|Germany|Latvia|Lithuania|Poland|Romania|Russia|Slovakia|Ukraine",
+      "expectedCountries": [
+        "BGR",
+        "BLR",
+        "DEU",
+        "LTU",
+        "LVA",
+        "POL",
+        "ROU",
+        "RUS",
+        "SVK",
+        "UKR"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006257/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "muskox": {
+      "scientificName": "Ovibos moschatus",
+      "authority": "MDD v2.5",
+      "mddId": "1006202",
+      "mddScientificName": "Ovibos moschatus",
+      "countryDistribution": "Canada|Greenland|United States",
+      "expectedCountries": [
+        "CAN",
+        "GRL",
+        "USA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006202/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "mountain-goat": {
+      "scientificName": "Oreamnos americanus",
+      "authority": "MDD v2.5",
+      "mddId": "1006201",
+      "mddScientificName": "Oreamnos americanus",
+      "countryDistribution": "Canada|United States",
+      "expectedCountries": [
+        "CAN",
+        "USA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006201/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "alpine-ibex": {
+      "scientificName": "Capra ibex",
+      "authority": "MDD v2.5",
+      "mddId": "1006185",
+      "mddScientificName": "Capra ibex",
+      "countryDistribution": "Austria|France|Germany|Italy|Liechtenstein|Switzerland",
+      "expectedCountries": [
+        "AUT",
+        "CHE",
+        "DEU",
+        "FRA",
+        "ITA",
+        "LIE"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006185/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "bighorn-sheep": {
+      "scientificName": "Ovis canadensis",
+      "authority": "MDD v2.5",
+      "mddId": "1006205",
+      "mddScientificName": "Ovis canadensis",
+      "countryDistribution": "Canada|Mexico|United States",
+      "expectedCountries": [
+        "CAN",
+        "MEX",
+        "USA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006205/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "mule-deer": {
+      "scientificName": "Odocoileus hemionus",
+      "authority": "MDD v2.5",
+      "mddId": "1006300",
+      "mddScientificName": "Odocoileus hemionus",
+      "countryDistribution": "Canada|Mexico|United States",
+      "expectedCountries": [
+        "CAN",
+        "MEX",
+        "USA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006300/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "red-deer": {
+      "scientificName": "Cervus elaphus",
+      "authority": "MDD v2.5",
+      "mddId": "1006313",
+      "mddScientificName": "Cervus elaphus",
+      "countryDistribution": "Algeria|Armenia|Austria|Azerbaijan|Belarus|Belgium|Bosnia and Herzegovina|Bulgaria|Croatia|Czech Republic|Denmark|Estonia|France|Georgia|Germany|Greece|Hungary|Iran|Iraq|Ireland|Italy|Latvia|Liechtenstein|Lithuania|Luxembourg|Moldova|Montenegro|Morocco|Netherlands|North Macedonia|Norway|Poland|Portugal|Romania|Russia|Serbia|Slovakia|Slovenia|Spain|Sweden|Switzerland|Tunisia|Turkey|Ukraine|United Kingdom",
+      "expectedCountries": [
+        "ARM",
+        "AUT",
+        "AZE",
+        "BEL",
+        "BGR",
+        "BIH",
+        "BLR",
+        "CHE",
+        "CZE",
+        "DEU",
+        "DNK",
+        "DZA",
+        "ESP",
+        "EST",
+        "FRA",
+        "GBR",
+        "GEO",
+        "GRC",
+        "HRV",
+        "HUN",
+        "IRL",
+        "IRN",
+        "IRQ",
+        "ITA",
+        "LIE",
+        "LTU",
+        "LUX",
+        "LVA",
+        "MAR",
+        "MDA",
+        "MKD",
+        "MNE",
+        "NLD",
+        "NOR",
+        "POL",
+        "PRT",
+        "ROU",
+        "RUS",
+        "SRB",
+        "SVK",
+        "SVN",
+        "SWE",
+        "TUN",
+        "TUR",
+        "UKR"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006313/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "elk": {
+      "scientificName": "Cervus canadensis",
+      "authority": "MDD v2.5",
+      "mddId": "1006312",
+      "mddScientificName": "Cervus canadensis",
+      "countryDistribution": "Bhutan|Canada|China|Kazakhstan|Kyrgyzstan|Mongolia|Russia|United States",
+      "expectedCountries": [
+        "BTN",
+        "CAN",
+        "CHN",
+        "KAZ",
+        "KGZ",
+        "MNG",
+        "RUS",
+        "USA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006312/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "sika-deer": {
+      "scientificName": "Cervus nippon",
+      "authority": "MDD v2.5",
+      "mddId": "1006315",
+      "mddScientificName": "Cervus nippon",
+      "countryDistribution": "China|Japan|Russia|Taiwan|Vietnam|North Korea?",
+      "expectedCountries": [
+        "CHN",
+        "JPN",
+        "RUS",
+        "TWN",
+        "VNM"
+      ],
+      "excludedUncertainCountries": [
+        "North Korea?"
+      ],
+      "source": "https://www.mammaldiversity.org/taxon/1006315/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "blackbuck": {
+      "scientificName": "Antilope cervicapra",
+      "authority": "MDD v2.5",
+      "mddId": "1006139",
+      "mddScientificName": "Antilope cervicapra",
+      "countryDistribution": "India|Nepal|Pakistan",
+      "expectedCountries": [
+        "IND",
+        "NPL",
+        "PAK"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006139/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "impala": {
+      "scientificName": "Aepyceros melampus",
+      "authority": "MDD v2.5",
+      "mddId": "1006130",
+      "mddScientificName": "Aepyceros melampus",
+      "countryDistribution": "Angola|Botswana|Democratic Republic of the Congo|Eswatini|Kenya|Malawi|Mozambique|Namibia|Rwanda|South Africa|Tanzania|Uganda|Zambia|Zimbabwe",
+      "expectedCountries": [
+        "AGO",
+        "BWA",
+        "COD",
+        "KEN",
+        "MOZ",
+        "MWI",
+        "NAM",
+        "RWA",
+        "SWZ",
+        "TZA",
+        "UGA",
+        "ZAF",
+        "ZMB",
+        "ZWE"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006130/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "thomson-s-gazelle": {
+      "scientificName": "Eudorcas thomsonii",
+      "authority": "MDD v2.5",
+      "mddId": "1006143",
+      "mddScientificName": "Eudorcas thomsonii",
+      "countryDistribution": "Kenya|Tanzania",
+      "expectedCountries": [
+        "KEN",
+        "TZA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006143/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "southern-giraffe": {
+      "scientificName": "Giraffa giraffa",
+      "authority": "MDD v2.5",
+      "mddId": "1006341",
+      "mddScientificName": "Giraffa giraffa",
+      "countryDistribution": "Botswana|Mozambique|Namibia|South Africa|Zambia|Zimbabwe",
+      "expectedCountries": [
+        "BWA",
+        "MOZ",
+        "NAM",
+        "ZAF",
+        "ZMB",
+        "ZWE"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006341/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "reticulated-giraffe": {
+      "scientificName": "Giraffa reticulata",
+      "authority": "MDD v2.5",
+      "mddId": "1006553",
+      "mddScientificName": "Giraffa reticulata",
+      "countryDistribution": "Ethiopia|Kenya|Somalia",
+      "expectedCountries": [
+        "ETH",
+        "KEN",
+        "SOM"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006553/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "masai-giraffe": {
+      "scientificName": "Giraffa tippelskirchi",
+      "authority": "MDD v2.5",
+      "mddId": "1006342",
+      "mddScientificName": "Giraffa tippelskirchi",
+      "countryDistribution": "Kenya|Tanzania|Zambia",
+      "expectedCountries": [
+        "KEN",
+        "TZA",
+        "ZMB"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006342/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "northern-giraffe": {
+      "scientificName": "Giraffa camelopardalis",
+      "authority": "MDD v2.5",
+      "mddId": "1006340",
+      "mddScientificName": "Giraffa camelopardalis",
+      "countryDistribution": "Cameroon|Central African Republic|Chad|Democratic Republic of the Congo|Kenya|Niger|South Sudan|Sudan|Uganda",
+      "expectedCountries": [
+        "CAF",
+        "CMR",
+        "COD",
+        "KEN",
+        "NER",
+        "SDN",
+        "SDS",
+        "TCD",
+        "UGA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006340/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "blue-wildebeest": {
+      "scientificName": "Connochaetes taurinus",
+      "authority": "MDD v2.5",
+      "mddId": "1006134",
+      "mddScientificName": "Connochaetes taurinus",
+      "countryDistribution": "Angola|Botswana|Eswatini|Kenya|Mozambique|Namibia|South Africa|Tanzania|Zambia|Zimbabwe",
+      "expectedCountries": [
+        "AGO",
+        "BWA",
+        "KEN",
+        "MOZ",
+        "NAM",
+        "SWZ",
+        "TZA",
+        "ZAF",
+        "ZMB",
+        "ZWE"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006134/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "black-wildebeest": {
+      "scientificName": "Connochaetes gnou",
+      "authority": "MDD v2.5",
+      "mddId": "1006133",
+      "mddScientificName": "Connochaetes gnou",
+      "countryDistribution": "Eswatini|Lesotho|South Africa",
+      "expectedCountries": [
+        "LSO",
+        "SWZ",
+        "ZAF"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006133/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "greater-kudu": {
+      "scientificName": "Tragelaphus strepsiceros",
+      "authority": "MDD v2.5",
+      "mddId": "1006283",
+      "mddScientificName": "Tragelaphus strepsiceros",
+      "countryDistribution": "Angola|Botswana|Central African Republic|Chad|Democratic Republic of the Congo|Eritrea|Eswatini|Ethiopia|Kenya|Malawi|Mozambique|Namibia|South Africa|South Sudan|Sudan|Tanzania|Uganda|Zambia|Zimbabwe|Djibouti?|Somalia?",
+      "expectedCountries": [
+        "AGO",
+        "BWA",
+        "CAF",
+        "COD",
+        "ERI",
+        "ETH",
+        "KEN",
+        "MOZ",
+        "MWI",
+        "NAM",
+        "SDN",
+        "SDS",
+        "SWZ",
+        "TCD",
+        "TZA",
+        "UGA",
+        "ZAF",
+        "ZMB",
+        "ZWE"
+      ],
+      "excludedUncertainCountries": [
+        "Djibouti?",
+        "Somalia?"
+      ],
+      "source": "https://www.mammaldiversity.org/taxon/1006283/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "common-warthog": {
+      "scientificName": "Phacochoerus africanus",
+      "authority": "MDD v2.5",
+      "mddId": "1006366",
+      "mddScientificName": "Phacochoerus africanus",
+      "countryDistribution": "Angola|Benin|Botswana|Burkina Faso|Burundi|Cameroon|Central African Republic|Chad|Cote d'Ivoire|Democratic Republic of the Congo|Djibouti|Eritrea|Eswatini|Ethiopia|Gambia|Ghana|Guinea|Guinea-Bissau|Kenya|Lesotho|Liberia|Malawi|Mali|Mauritania|Mozambique|Namibia|Niger|Nigeria|Rwanda|Senegal|Sierra Leone|Somalia|South Africa|South Sudan|Sudan|Tanzania|Togo|Uganda|Zambia|Zimbabwe",
+      "expectedCountries": [
+        "AGO",
+        "BDI",
+        "BEN",
+        "BFA",
+        "BWA",
+        "CAF",
+        "CIV",
+        "CMR",
+        "COD",
+        "DJI",
+        "ERI",
+        "ETH",
+        "GHA",
+        "GIN",
+        "GMB",
+        "GNB",
+        "KEN",
+        "LBR",
+        "LSO",
+        "MLI",
+        "MOZ",
+        "MRT",
+        "MWI",
+        "NAM",
+        "NER",
+        "NGA",
+        "RWA",
+        "SDN",
+        "SDS",
+        "SEN",
+        "SLE",
+        "SOM",
+        "SWZ",
+        "TCD",
+        "TGO",
+        "TZA",
+        "UGA",
+        "ZAF",
+        "ZMB",
+        "ZWE"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006366/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "black-and-white-ruffed-lemur": {
+      "scientificName": "Varecia variegata",
+      "authority": "MDD v2.5",
+      "mddId": "1001011",
+      "mddScientificName": "Varecia variegata",
+      "countryDistribution": "Madagascar",
+      "expectedCountries": [
+        "MDG"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1001011/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "red-ruffed-lemur": {
+      "scientificName": "Varecia rubra",
+      "authority": "MDD v2.5",
+      "mddId": "1001010",
+      "mddScientificName": "Varecia rubra",
+      "countryDistribution": "Madagascar",
+      "expectedCountries": [
+        "MDG"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1001010/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "indri": {
+      "scientificName": "Indri indri",
+      "authority": "MDD v2.5",
+      "mddId": "1000981",
+      "mddScientificName": "Indri indri",
+      "countryDistribution": "Madagascar",
+      "expectedCountries": [
+        "MDG"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000981/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "aye-aye": {
+      "scientificName": "Daubentonia madagascariensis",
+      "authority": "MDD v2.5",
+      "mddId": "1000929",
+      "mddScientificName": "Daubentonia madagascariensis",
+      "countryDistribution": "Madagascar",
+      "expectedCountries": [
+        "MDG"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000929/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "philippine-tarsier": {
+      "scientificName": "Carlito syrichta",
+      "authority": "MDD v2.5",
+      "mddId": "1000915",
+      "mddScientificName": "Carlito syrichta",
+      "countryDistribution": "Philippines",
+      "expectedCountries": [
+        "PHL"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000915/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "mandrill": {
+      "scientificName": "Mandrillus sphinx",
+      "authority": "MDD v2.5",
+      "mddId": "1000627",
+      "mddScientificName": "Mandrillus sphinx",
+      "countryDistribution": "Cameroon|Equatorial Guinea|Gabon|Republic of the Congo",
+      "expectedCountries": [
+        "CMR",
+        "COG",
+        "GAB",
+        "GNQ"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000627/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "siamang": {
+      "scientificName": "Symphalangus syndactylus",
+      "authority": "MDD v2.5",
+      "mddId": "1000743",
+      "mddScientificName": "Symphalangus syndactylus",
+      "countryDistribution": "Indonesia|Malaysia|Thailand",
+      "expectedCountries": [
+        "IDN",
+        "MYS",
+        "THA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000743/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "tasmanian-devil": {
+      "scientificName": "Sarcophilus harrisii",
+      "authority": "MDD v2.5",
+      "mddId": "1000166",
+      "mddScientificName": "Sarcophilus harrisii",
+      "countryDistribution": "Australia",
+      "expectedCountries": [
+        "AUS"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000166/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "short-beaked-echidna": {
+      "scientificName": "Tachyglossus aculeatus",
+      "authority": "MDD v2.5",
+      "mddId": "1000002",
+      "mddScientificName": "Tachyglossus aculeatus",
+      "countryDistribution": "Australia|Indonesia|Papua New Guinea",
+      "expectedCountries": [
+        "AUS",
+        "IDN",
+        "PNG"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000002/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "southern-tamandua": {
+      "scientificName": "Tamandua tetradactyla",
+      "authority": "MDD v2.5",
+      "mddId": "1000444",
+      "mddScientificName": "Tamandua tetradactyla",
+      "countryDistribution": "Argentina|Bolivia|Brazil|Colombia|Ecuador|French Guiana|Guyana|Paraguay|Peru|Suriname|Trinidad and Tobago|Uruguay|Venezuela",
+      "expectedCountries": [
+        "ARG",
+        "BOL",
+        "BRA",
+        "COL",
+        "ECU",
+        "FRA",
+        "GUY",
+        "PER",
+        "PRY",
+        "SUR",
+        "TTO",
+        "URY",
+        "VEN"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000444/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "southern-three-banded-armadillo": {
+      "scientificName": "Tolypeutes matacus",
+      "authority": "MDD v2.5",
+      "mddId": "1000419",
+      "mddScientificName": "Tolypeutes matacus",
+      "countryDistribution": "Argentina|Bolivia|Brazil|Paraguay",
+      "expectedCountries": [
+        "ARG",
+        "BOL",
+        "BRA",
+        "PRY"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000419/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "southern-hairy-nosed-wombat": {
+      "scientificName": "Lasiorhinus latifrons",
+      "authority": "MDD v2.5",
+      "mddId": "1000406",
+      "mddScientificName": "Lasiorhinus latifrons",
+      "countryDistribution": "Australia",
+      "expectedCountries": [
+        "AUS"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000406/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "goodfellow-s-tree-kangaroo": {
+      "scientificName": "Dendrolagus goodfellowi",
+      "authority": "MDD v2.5",
+      "mddId": "1000254",
+      "mddScientificName": "Dendrolagus goodfellowi",
+      "countryDistribution": "Papua New Guinea",
+      "expectedCountries": [
+        "PNG"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000254/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "gaur": {
+      "scientificName": "Bos gaurus",
+      "authority": "MDD v2.5",
+      "mddId": "1006260",
+      "mddScientificName": "Bos gaurus",
+      "countryDistribution": "Bhutan|Cambodia|China|India|Laos|Malaysia|Myanmar|Nepal|Thailand|Vietnam|Bangladesh?",
+      "expectedCountries": [
+        "BTN",
+        "CHN",
+        "IND",
+        "KHM",
+        "LAO",
+        "MMR",
+        "MYS",
+        "NPL",
+        "THA",
+        "VNM"
+      ],
+      "excludedUncertainCountries": [
+        "Bangladesh?"
+      ],
+      "source": "https://www.mammaldiversity.org/taxon/1006260/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "banteng": {
+      "scientificName": "Bos javanicus",
+      "authority": "MDD v2.5",
+      "mddId": "1006263",
+      "mddScientificName": "Bos javanicus",
+      "countryDistribution": "Cambodia|Indonesia|Malaysia|Myanmar|Thailand|Vietnam|China?|Laos?",
+      "expectedCountries": [
+        "IDN",
+        "KHM",
+        "MMR",
+        "MYS",
+        "THA",
+        "VNM"
+      ],
+      "excludedUncertainCountries": [
+        "China?",
+        "Laos?"
+      ],
+      "source": "https://www.mammaldiversity.org/taxon/1006263/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "iberian-ibex": {
+      "scientificName": "Capra pyrenaica",
+      "authority": "MDD v2.5",
+      "mddId": "1006187",
+      "mddScientificName": "Capra pyrenaica",
+      "countryDistribution": "Portugal|Spain",
+      "expectedCountries": [
+        "ESP",
+        "PRT"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006187/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "water-deer": {
+      "scientificName": "Hydropotes inermis",
+      "authority": "MDD v2.5",
+      "mddId": "1006288",
+      "mddScientificName": "Hydropotes inermis",
+      "countryDistribution": "China|North Korea|South Korea",
+      "expectedCountries": [
+        "CHN",
+        "KOR",
+        "PRK"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006288/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "north-sulawesi-babirusa": {
+      "scientificName": "Babyrousa celebensis",
+      "authority": "MDD v2.5",
+      "mddId": "1006362",
+      "mddScientificName": "Babyrousa celebensis",
+      "countryDistribution": "Indonesia",
+      "expectedCountries": [
+        "IDN"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006362/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "visayan-warty-pig": {
+      "scientificName": "Sus cebifrons",
+      "authority": "MDD v2.5",
+      "mddId": "1006372",
+      "mddScientificName": "Sus cebifrons",
+      "countryDistribution": "Philippines",
+      "expectedCountries": [
+        "PHL"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1006372/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "cotton-top-tamarin": {
+      "scientificName": "Saguinus oedipus",
+      "authority": "MDD v2.5",
+      "mddId": "1000824",
+      "mddScientificName": "Saguinus oedipus",
+      "countryDistribution": "Colombia",
+      "expectedCountries": [
+        "COL"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000824/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "gelada": {
+      "scientificName": "Theropithecus gelada",
+      "authority": "MDD v2.5",
+      "mddId": "1000635",
+      "mddScientificName": "Theropithecus gelada",
+      "countryDistribution": "Ethiopia",
+      "expectedCountries": [
+        "ETH"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000635/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "lion-tailed-macaque": {
+      "scientificName": "Macaca silenus",
+      "authority": "MDD v2.5",
+      "mddId": "1000621",
+      "mddScientificName": "Macaca silenus",
+      "countryDistribution": "India",
+      "expectedCountries": [
+        "IND"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000621/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "silvery-gibbon": {
+      "scientificName": "Hylobates moloch",
+      "authority": "MDD v2.5",
+      "mddId": "1000733",
+      "mddScientificName": "Hylobates moloch",
+      "countryDistribution": "Indonesia",
+      "expectedCountries": [
+        "IDN"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1000733/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
+    },
+    "red-slender-loris": {
+      "scientificName": "Loris tardigradus",
+      "authority": "MDD v2.5",
+      "mddId": "1001060",
+      "mddScientificName": "Loris tardigradus",
+      "countryDistribution": "Sri Lanka",
+      "expectedCountries": [
+        "LKA"
+      ],
+      "excludedUncertainCountries": [],
+      "source": "https://www.mammaldiversity.org/taxon/1001060/",
+      "correction": null,
+      "reviewedAt": "2026-11-07"
     }
   },
-  "mapCodeSystem": "Natural Earth ADM0_A3 from the bundled map; overseas territory aggregation and non-ISO administrative identifiers are retained explicitly."
+  "mapCodeSystem": "Natural Earth ADM0_A3 from the bundled map; overseas territory aggregation and non-ISO administrative identifiers are retained explicitly.",
+  "latestExpansionReviewedAt": "2026-11-07"
 }

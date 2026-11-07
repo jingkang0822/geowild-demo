@@ -1,6 +1,6 @@
 # GeoWild animal sources
 
-Reviewed: 2026-10-23. This release contains 100 species. `data/animals.json` is canonical and generates `site/js/animals.js`. Range evidence and documented source corrections are recorded in `data/range-evidence.json`; independent country-coordinate fixtures are in `data/country-anchors.json`. The original 17 source notes remain below, followed by the additional 83 records.
+Reviewed: 2026-11-07. This release contains 150 species. `data/animals.json` is canonical and generates `site/js/animals.js`. Range evidence and documented source corrections are recorded in `data/range-evidence.json`; independent country-coordinate fixtures are in `data/country-anchors.json`. The original 17 source notes remain below, followed by the additional 83 records and the 50-species expansion.
 
 ## Range policy
 
@@ -827,3 +827,407 @@ Coordinates use Natural Earth label points as independent test inputs. Its offsh
 - Range evidence: [Australian Museum: native range and breeding](https://australian.museum/learn/animals/birds/emu/).
 - Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Emu_1_-_Tidbinbilla.jpg).
 - Attribution: JJ Harrison ( https://www.jjharrison.com.au/ ); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+## 2026-11-07 expansion
+
+Exactly 50 species were appended: 35 familiar and 15 discovery. Familiarity is an editorial learning-game tier, not a taxonomic or conservation category. Tasmanian devil and short-beaked echidna are recognizable additions assigned to familiar; the remaining tiers follow the inspected candidate bank. The original 100 records remain unchanged. MDD v2.5 and independent country-coordinate sources were downloaded again and their hashes match the original evidence. All 50 Commons source URLs, authors and licenses were rechecked against imageinfo metadata. A museum-mounted Brazilian three-banded armadillo candidate was replaced with a living red slender loris photograph after visual inspection.
+
+### giant-anteater — Myrmecophaga tridactyla
+
+- Tier: `familiar`.
+- Accepted map-country codes: `ARG, BOL, BRA, COL, CRI, ECU, FRA, GUY, HND, NIC, PAN, PER, PRY, SUR, VEN`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000442/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Myresluger2.jpg).
+- Attribution: Malene Thyssen; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+### giant-armadillo — Priodontes maximus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `ARG, BOL, BRA, COL, ECU, FRA, GUY, PER, PRY, SUR, VEN`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000418/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Priodontes_maximus_at_R%C3%A9gina.jpg).
+- Attribution: Guillaume Delaitre; [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
+
+### eastern-gray-kangaroo — Macropus giganteus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AUS`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000277/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Macropus_giganteus_-_Brunkerville.jpg).
+- Attribution: JJ Harrison ( https://www.jjharrison.com.au/ ); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### western-gray-kangaroo — Macropus fuliginosus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AUS`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000276/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Kangaroo_Island_Western_grey_kangaroo_(Macropus_fuliginosus_fuliginosus)_male.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### southern-cassowary — Casuarius casuarius
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AUS, IDN, PNG`.
+- Range evidence: [Australian Museum — southern cassowary distribution](https://australian.museum/learn/animals/birds/southern-cassowary/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Southern_Cassowary_7071.jpg).
+- Attribution: Summerdrought; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### american-bison — Bos bison
+
+- Tier: `familiar`.
+- Accepted map-country codes: `CAN, MEX, USA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006256/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:American_bison_k5680-1.jpg).
+- Attribution: Jack Dykinga; [Public domain](https://creativecommons.org/publicdomain/mark/1.0/).
+
+### european-bison — Bos bonasus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `BGR, BLR, DEU, LTU, LVA, POL, ROU, RUS, SVK, UKR`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006257/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:European_bison_(Bison_bonasus)_male_Bia%C5%82owieza.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### muskox — Ovibos moschatus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `CAN, GRL, USA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006202/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Muskox_(Ovibos_moschatus)_male_Dovrefjell_4.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### mountain-goat — Oreamnos americanus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `CAN, USA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006201/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Mountain_Goat,_Enchantments_Basin.jpg).
+- Attribution: Adam Schneider; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### alpine-ibex — Capra ibex
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AUT, CHE, DEU, FRA, ITA, LIE`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006185/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:003_Wild_Alpine_Ibex_Sunset_Creux_du_Van_Mont_Racine_Photo_by_Giles_Laurent.jpg).
+- Attribution: Giles Laurent; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### bighorn-sheep — Ovis canadensis
+
+- Tier: `familiar`.
+- Accepted map-country codes: `CAN, MEX, USA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006205/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:New_Mexico_Bighorn_Sheep.JPG).
+- Attribution: Jwanamaker; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+
+### mule-deer — Odocoileus hemionus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `CAN, MEX, USA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006300/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Mule_buck_elk_creek_m_myatt_(5489214303).jpg).
+- Attribution: Oregon Department of Fish & Wildlife; [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+
+### red-deer — Cervus elaphus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `ARM, AUT, AZE, BEL, BGR, BIH, BLR, CHE, CZE, DEU, DNK, DZA, ESP, EST, FRA, GBR, GEO, GRC, HRV, HUN, IRL, IRN, IRQ, ITA, LIE, LTU, LUX, LVA, MAR, MDA, MKD, MNE, NLD, NOR, POL, PRT, ROU, RUS, SRB, SVK, SVN, SWE, TUN, TUR, UKR`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006313/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Cervus_elaphus_Luc_Viatour_6.jpg).
+- Attribution: Lviatour; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+
+### elk — Cervus canadensis
+
+- Tier: `familiar`.
+- Accepted map-country codes: `BTN, CAN, CHN, KAZ, KGZ, MNG, RUS, USA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006312/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Jasper.Wapiti-Hirsch.P1033401.jpg).
+- Attribution: Membeth; [CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.en).
+
+### sika-deer — Cervus nippon
+
+- Tier: `familiar`.
+- Accepted map-country codes: `CHN, JPN, RUS, TWN, VNM`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006315/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Cervus_nippon_002.jpg).
+- Attribution: Lilly M; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+
+### blackbuck — Antilope cervicapra
+
+- Tier: `familiar`.
+- Accepted map-country codes: `IND, NPL, PAK`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006139/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Blackbuck_male_female.jpg).
+- Attribution: Mr Raja Purohit; [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5).
+
+### impala — Aepyceros melampus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AGO, BWA, COD, KEN, MOZ, MWI, NAM, RWA, SWZ, TZA, UGA, ZAF, ZMB, ZWE`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006130/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Common_impala_(Aepyceros_melampus_melampus)_male_Serengeti.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### thomson-s-gazelle — Eudorcas thomsonii
+
+- Tier: `familiar`.
+- Accepted map-country codes: `KEN, TZA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006143/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Gacela_de_Thomson_(Eudorcas_thomsonii),_parque_nacional_de_Amboseli,_Kenia,_2024-05-23,_DD_11.jpg).
+- Attribution: Diego Delso; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### southern-giraffe — Giraffa giraffa
+
+- Tier: `familiar`.
+- Accepted map-country codes: `BWA, MOZ, NAM, ZAF, ZMB, ZWE`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006341/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Angolan_giraffe_(Giraffa_camelopardalis_angolensis)_males.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### reticulated-giraffe — Giraffa reticulata
+
+- Tier: `familiar`.
+- Accepted map-country codes: `ETH, KEN, SOM`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006553/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Two_Giraffes.PNG).
+- Attribution: Relative of Brandt Luke Zorn, most likely his father.; [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+
+### masai-giraffe — Giraffa tippelskirchi
+
+- Tier: `familiar`.
+- Accepted map-country codes: `KEN, TZA, ZMB`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006342/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Masai_giraffes_(Giraffa_tippelskirchi)_Arusha.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### northern-giraffe — Giraffa camelopardalis
+
+- Tier: `familiar`.
+- Accepted map-country codes: `CAF, CMR, COD, KEN, NER, SDN, SDS, TCD, UGA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006340/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Rothschild%27s_giraffe_(Giraffa_camelopardalis_rothschildi)_-_Murchison_Falls_National_Park.jpg).
+- Attribution: Thomas Fuhrmann; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### blue-wildebeest — Connochaetes taurinus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AGO, BWA, KEN, MOZ, NAM, SWZ, TZA, ZAF, ZMB, ZWE`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006134/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Blue_wildebeest_at_Etosha_National_Park.jpg).
+- Attribution: Olga Ernst; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### black-wildebeest — Connochaetes gnou
+
+- Tier: `familiar`.
+- Accepted map-country codes: `LSO, SWZ, ZAF`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006133/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Black_Wildebeest_(Connochaetes_gnou)_(31746882054).jpg).
+- Attribution: Bernard DUPONT from FRANCE; [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+
+### greater-kudu — Tragelaphus strepsiceros
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AGO, BWA, CAF, COD, ERI, ETH, KEN, MOZ, MWI, NAM, SDN, SDS, SWZ, TCD, TZA, UGA, ZAF, ZMB, ZWE`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006283/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Male_greater_kudu.jpg).
+- Attribution: L0k1m0nk33 at English Wikipedia; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+### common-warthog — Phacochoerus africanus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AGO, BDI, BEN, BFA, BWA, CAF, CIV, CMR, COD, DJI, ERI, ETH, GHA, GIN, GMB, GNB, KEN, LBR, LSO, MLI, MOZ, MRT, MWI, NAM, NER, NGA, RWA, SDN, SDS, SEN, SLE, SOM, SWZ, TCD, TGO, TZA, UGA, ZAF, ZMB, ZWE`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006366/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Southern_warthog_(Phacochoerus_africanus_sundevallii)_male.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### black-and-white-ruffed-lemur — Varecia variegata
+
+- Tier: `familiar`.
+- Accepted map-country codes: `MDG`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1001011/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:1_black_and_white_ruffed_lemur.jpg).
+- Attribution: Chensiyuan; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### red-ruffed-lemur — Varecia rubra
+
+- Tier: `familiar`.
+- Accepted map-country codes: `MDG`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1001010/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Red_ruffed_lemur_(Varecia_rubra).jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### indri — Indri indri
+
+- Tier: `familiar`.
+- Accepted map-country codes: `MDG`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000981/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Indri_(Indri_indri).jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### aye-aye — Daubentonia madagascariensis
+
+- Tier: `familiar`.
+- Accepted map-country codes: `MDG`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000929/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Wild_aye_aye.jpg).
+- Attribution: nomis-simon; [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+
+### philippine-tarsier — Carlito syrichta
+
+- Tier: `familiar`.
+- Accepted map-country codes: `PHL`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000915/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Philippine_tarsier_(Carlito_syrichta_fraterculus)_Bohol.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### mandrill — Mandrillus sphinx
+
+- Tier: `familiar`.
+- Accepted map-country codes: `CMR, COG, GAB, GNQ`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000627/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Mandrill_Albert_September_2015_Zoo_Berlin_(2).jpg).
+- Attribution: Katma0601; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### siamang — Symphalangus syndactylus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `IDN, MYS, THA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000743/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Siamang_Tierpark_Hellabrunn-4.jpg).
+- Attribution: Rufus46; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+
+### tasmanian-devil — Sarcophilus harrisii
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AUS`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000166/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Sarcophilus_harrisii_taranna.jpg).
+- Attribution: JJ Harrison ( https://www.jjharrison.com.au/ ); [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+
+### short-beaked-echidna — Tachyglossus aculeatus
+
+- Tier: `familiar`.
+- Accepted map-country codes: `AUS, IDN, PNG`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000002/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Short-beaked_echidna_(Tachyglossus_aculeatus_setosus)_Scottsdale.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### southern-tamandua — Tamandua tetradactyla
+
+- Tier: `discovery`.
+- Accepted map-country codes: `ARG, BOL, BRA, COL, ECU, FRA, GUY, PER, PRY, SUR, TTO, URY, VEN`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000444/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:T_tetradactyla_1.jpg).
+- Attribution: Sinara Conessa; [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+
+### red-slender-loris — Loris tardigradus
+
+- Tier: `discovery`.
+- Accepted map-country codes: `LKA`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1001060/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Loris_tardigradus_tardigradus_001.jpg).
+- Attribution: Dr. K.A.I. Nekaris; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### southern-three-banded-armadillo — Tolypeutes matacus
+
+- Tier: `discovery`.
+- Accepted map-country codes: `ARG, BOL, BRA, PRY`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000419/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:SouthernThreeBandedArmadillo065b.jpg).
+- Attribution: SouthernThreeBandedArmadillo065.jpg : Ltshears derivative work: WolfmanSF ( talk ); [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+
+### southern-hairy-nosed-wombat — Lasiorhinus latifrons
+
+- Tier: `discovery`.
+- Accepted map-country codes: `AUS`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000406/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Southern_Hairy-nosed_Wombat.jpg).
+- Attribution: Jason Pratt; [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+
+### goodfellow-s-tree-kangaroo — Dendrolagus goodfellowi
+
+- Tier: `discovery`.
+- Accepted map-country codes: `PNG`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000254/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Tree_kangaroo2.jpg).
+- Attribution: Tim Williams; [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+
+### gaur — Bos gaurus
+
+- Tier: `discovery`.
+- Accepted map-country codes: `BTN, CHN, IND, KHM, LAO, MMR, MYS, NPL, THA, VNM`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006260/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Indian_Gaur_from_anaimalai_hills_JEG5290.jpg).
+- Attribution: PJeganathan; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### banteng — Bos javanicus
+
+- Tier: `discovery`.
+- Accepted map-country codes: `IDN, KHM, MMR, MYS, THA, VNM`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006263/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Banteng_Alas_Purwo.jpg).
+- Attribution: Buyung Sukananda; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### iberian-ibex — Capra pyrenaica
+
+- Tier: `discovery`.
+- Accepted map-country codes: `ESP, PRT`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006187/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Cabra_mont%C3%A9s_2,_cropped_and_brightened.jpg).
+- Attribution: Juan Lacruz; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).
+
+### water-deer — Hydropotes inermis
+
+- Tier: `discovery`.
+- Accepted map-country codes: `CHN, KOR, PRK`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006288/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Hydropotes_inermis_male.JPG).
+- Attribution: Altaileopard; [Public domain](https://creativecommons.org/publicdomain/mark/1.0/).
+
+### north-sulawesi-babirusa — Babyrousa celebensis
+
+- Tier: `discovery`.
+- Accepted map-country codes: `IDN`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006362/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Hirscheber1a.jpg).
+- Attribution: Masteraah at German Wikipedia; [CC BY-SA 2.0 de](https://creativecommons.org/licenses/by-sa/2.0/de/deed.en).
+
+### visayan-warty-pig — Sus cebifrons
+
+- Tier: `discovery`.
+- Accepted map-country codes: `PHL`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1006372/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:VisayanWartyPig01.jpg).
+- Attribution: Ltshears; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### cotton-top-tamarin — Saguinus oedipus
+
+- Tier: `discovery`.
+- Accepted map-country codes: `COL`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000824/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:1_cotton_top_tamarin.jpg).
+- Attribution: Chensiyuan; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### gelada — Theropithecus gelada
+
+- Tier: `discovery`.
+- Accepted map-country codes: `ETH`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000635/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Gelada_(Theropithecus_gelada_gelada)_male_2.jpg).
+- Attribution: Charles J. Sharp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+
+### lion-tailed-macaque — Macaca silenus
+
+- Tier: `discovery`.
+- Accepted map-country codes: `IND`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000621/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Lion-tailed_Macaque_in_Bristol_Zoo.jpg).
+- Attribution: Chris huh; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
+
+### silvery-gibbon — Hylobates moloch
+
+- Tier: `discovery`.
+- Accepted map-country codes: `IDN`.
+- Range evidence: [ASM Mammal Diversity Database — species and country distribution](https://www.mammaldiversity.org/taxon/1000733/).
+- Photograph: [Commons source](https://commons.wikimedia.org/wiki/File:Moloch-20210525-Ctb.jpg).
+- Attribution: Hamas Fathani; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).

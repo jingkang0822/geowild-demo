@@ -698,5 +698,355 @@
     "height": 640,
     "bytes": 154933,
     "sha256": "15bd2daea0d95c188ac740f04d608eb2e1dc5882dd1e9a83aa5679e871de6cfc"
+  },
+  {
+    "id": "giant-anteater",
+    "width": 800,
+    "height": 541,
+    "bytes": 225853,
+    "sha256": "3ea0f780cd9af0c1a33e6ce2b89ba8a48b53a245417963b59919145d132d8d58"
+  },
+  {
+    "id": "giant-armadillo",
+    "width": 800,
+    "height": 532,
+    "bytes": 160577,
+    "sha256": "0f6379221bf7a1affac1309a975c58e63f850e8d2b1a680497b0511d87d09547"
+  },
+  {
+    "id": "eastern-gray-kangaroo",
+    "width": 800,
+    "height": 799,
+    "bytes": 141308,
+    "sha256": "53fc46f6f9aca7d10b256b8768b9570ef038feda3fb2d17dce20f34ff484e581"
+  },
+  {
+    "id": "western-gray-kangaroo",
+    "width": 800,
+    "height": 533,
+    "bytes": 120153,
+    "sha256": "91b8715712bf3c388e8b6fd32611f2e1e7c4a6ba0ffd140171095c1601a42661"
+  },
+  {
+    "id": "southern-cassowary",
+    "width": 800,
+    "height": 600,
+    "bytes": 216414,
+    "sha256": "a95c68d20ced8ba921152090bff1a7582731ceda9a968c780b3027b6d92a0c53"
+  },
+  {
+    "id": "american-bison",
+    "width": 800,
+    "height": 521,
+    "bytes": 158884,
+    "sha256": "2ffa72c06606ff91e9870122600d116307909bc7c28b97766b8a1aba36a7c7cc"
+  },
+  {
+    "id": "european-bison",
+    "width": 800,
+    "height": 533,
+    "bytes": 184526,
+    "sha256": "92f44cbc001f4f50808f1037eeed3978952d49bd50e2007b74ec52f153b6e954"
+  },
+  {
+    "id": "muskox",
+    "width": 800,
+    "height": 533,
+    "bytes": 217068,
+    "sha256": "73f02a9166784c05fe3bf5f11cef347b933aa784fd73f880e5c867fa1a597d21"
+  },
+  {
+    "id": "mountain-goat",
+    "width": 800,
+    "height": 800,
+    "bytes": 297081,
+    "sha256": "449f7cf13648053e3502c71dc6971723cd2d93f6a1b2c41328205280240df1c4"
+  },
+  {
+    "id": "alpine-ibex",
+    "width": 533,
+    "height": 800,
+    "bytes": 79598,
+    "sha256": "a4d012e7e440035e9389a3f89791934876ad5fa5bd4f535c9484a39f0b1a0553"
+  },
+  {
+    "id": "bighorn-sheep",
+    "width": 800,
+    "height": 533,
+    "bytes": 206899,
+    "sha256": "58715e74b2e86946aa84ec4c441c5910a718dc03a7797b369177ea24711e5bd8"
+  },
+  {
+    "id": "mule-deer",
+    "width": 800,
+    "height": 571,
+    "bytes": 89909,
+    "sha256": "73f0658defb64794a5dc94bc06f2faa2d5484a238d92c39a003ef88bc4113902"
+  },
+  {
+    "id": "red-deer",
+    "width": 800,
+    "height": 533,
+    "bytes": 116371,
+    "sha256": "1d3b46aff8824d237acf9d29d1b996d90c09fda600bf7c40e47231de877d4b21"
+  },
+  {
+    "id": "elk",
+    "width": 800,
+    "height": 748,
+    "bytes": 272536,
+    "sha256": "da20a719e850de5858e87a4604a531a55dfee532670ece441986220897166ecb"
+  },
+  {
+    "id": "sika-deer",
+    "width": 800,
+    "height": 536,
+    "bytes": 158237,
+    "sha256": "3af998eae6e630a516ae76ed30110062a0f886b0e781706a386cd50a16b57912"
+  },
+  {
+    "id": "blackbuck",
+    "width": 800,
+    "height": 572,
+    "bytes": 114997,
+    "sha256": "048191edec8384009b90faa1b7c06ddc7a783f86dc037c92f4b0d93ea3a06eea"
+  },
+  {
+    "id": "impala",
+    "width": 800,
+    "height": 533,
+    "bytes": 153573,
+    "sha256": "bbcb8b91c0cfcd2a3cf759626a209c4829cdfc0e4aa5dcab1b52b4036f74a8af"
+  },
+  {
+    "id": "thomson-s-gazelle",
+    "width": 800,
+    "height": 533,
+    "bytes": 123912,
+    "sha256": "73b4e0b76a561deedcdbba21a248d47414bd4c2df44187a2a59584e29d9395e0"
+  },
+  {
+    "id": "southern-giraffe",
+    "width": 672,
+    "height": 800,
+    "bytes": 233339,
+    "sha256": "30ba3ce037d2c589c3ccd7285b40501a137226ce5a3219edc6570c27125d0e2c"
+  },
+  {
+    "id": "reticulated-giraffe",
+    "width": 675,
+    "height": 800,
+    "bytes": 332951,
+    "sha256": "bb6dcd9849d8f09bf4dbcc3f60db73e4b7736310c57ed6367ca98e5cc7021408"
+  },
+  {
+    "id": "masai-giraffe",
+    "width": 800,
+    "height": 533,
+    "bytes": 225184,
+    "sha256": "8cbfc6b64297530ccb6260d72466935f4e5b717ead4063456154f287d3b778ba"
+  },
+  {
+    "id": "northern-giraffe",
+    "width": 800,
+    "height": 533,
+    "bytes": 88413,
+    "sha256": "d7830cc48be465f9e1c069a402092271542b2b425cf2cdba2ac268987059b3ee"
+  },
+  {
+    "id": "blue-wildebeest",
+    "width": 800,
+    "height": 530,
+    "bytes": 227875,
+    "sha256": "c92c7ba2832fe9122fcc5b7fd0fd2ba8471e2320e0e8a21cac669356817dda83"
+  },
+  {
+    "id": "black-wildebeest",
+    "width": 748,
+    "height": 800,
+    "bytes": 214743,
+    "sha256": "32a91c477cbc33d22fa8f4908dd6227e0ea9a9dc9f6e6d1bb58b8bea4a12bc27"
+  },
+  {
+    "id": "greater-kudu",
+    "width": 800,
+    "height": 611,
+    "bytes": 290169,
+    "sha256": "870db0905ec34b7652c459ea2d50b452327b1d257c4c96cad84a9c8e64c5a5eb"
+  },
+  {
+    "id": "common-warthog",
+    "width": 800,
+    "height": 533,
+    "bytes": 193658,
+    "sha256": "740348e304f520da64fde2703b03f4498c73b707cdc920d5b1aa4de390cb6f7d"
+  },
+  {
+    "id": "black-and-white-ruffed-lemur",
+    "width": 800,
+    "height": 600,
+    "bytes": 150541,
+    "sha256": "9ead743482dbfe93f50ce23408f6077df67b7153a4dcb4ed972a8e8e9b8f0fc7"
+  },
+  {
+    "id": "red-ruffed-lemur",
+    "width": 800,
+    "height": 800,
+    "bytes": 226069,
+    "sha256": "9829e48024a165e003d6e1179a43b730504ed5e28e269147d460f958e14c5759"
+  },
+  {
+    "id": "indri",
+    "width": 800,
+    "height": 800,
+    "bytes": 313240,
+    "sha256": "719fbba54c80c775037724fc6b487f786d7cda79c013fb9b6e11f3482e6bb2ce"
+  },
+  {
+    "id": "aye-aye",
+    "width": 800,
+    "height": 533,
+    "bytes": 127652,
+    "sha256": "217d510343c746952ba51fc908fd21aa3f51603972192b32542af5f0329f91b3"
+  },
+  {
+    "id": "philippine-tarsier",
+    "width": 800,
+    "height": 533,
+    "bytes": 191060,
+    "sha256": "00cb1581c9e506b3a3d3eafb5d7aab451742e658561099107b93cea1caf1c0e8"
+  },
+  {
+    "id": "mandrill",
+    "width": 612,
+    "height": 800,
+    "bytes": 181934,
+    "sha256": "f1502e62577c87fd4587c01e71dd0bde915eb3c29c6579b86bee37b5a19eed88"
+  },
+  {
+    "id": "siamang",
+    "width": 582,
+    "height": 800,
+    "bytes": 161658,
+    "sha256": "c0c647da5c35516085811ab351147c5f85642d686270304c53d717798167c59b"
+  },
+  {
+    "id": "tasmanian-devil",
+    "width": 800,
+    "height": 521,
+    "bytes": 166290,
+    "sha256": "71d99d353b746a677e1d3193ee0bcb832ac2986fe1229198311cc67cb8d2d992"
+  },
+  {
+    "id": "short-beaked-echidna",
+    "width": 800,
+    "height": 533,
+    "bytes": 181397,
+    "sha256": "96c4634d7bf13b001f91de8675ababdc3c6fe304319e5b37f116e75ffbfc5d55"
+  },
+  {
+    "id": "southern-tamandua",
+    "width": 615,
+    "height": 800,
+    "bytes": 186644,
+    "sha256": "4e0d88c5ff13393d417fcf7a74e174765c4d8a5f448fe9cbda65869ebeb7f81d"
+  },
+  {
+    "id": "red-slender-loris",
+    "width": 661,
+    "height": 800,
+    "bytes": 159827,
+    "sha256": "96dc9e6493e14953a0d83ded1bf6f335c3f488a61c954832d57d370802e7f008"
+  },
+  {
+    "id": "southern-three-banded-armadillo",
+    "width": 800,
+    "height": 522,
+    "bytes": 152988,
+    "sha256": "296678a9b91594fbbdbab07cf22d381038a737bad1512f157e544009daa0c567"
+  },
+  {
+    "id": "southern-hairy-nosed-wombat",
+    "width": 800,
+    "height": 592,
+    "bytes": 207468,
+    "sha256": "2a898f6307047ecdf1009ad4d12e67a8d5f366be534b6485311410f1cdd649eb"
+  },
+  {
+    "id": "goodfellow-s-tree-kangaroo",
+    "width": 571,
+    "height": 800,
+    "bytes": 140688,
+    "sha256": "bc125c37f3397a7605e80ebdb8d1d9ea2ce48478126619ee18b0d3c987d5177e"
+  },
+  {
+    "id": "gaur",
+    "width": 800,
+    "height": 530,
+    "bytes": 247752,
+    "sha256": "55ae8a795ce4fc6fd46243af4c09e6368755d1c170b87947f35a2e3f59b001bc"
+  },
+  {
+    "id": "banteng",
+    "width": 800,
+    "height": 533,
+    "bytes": 135805,
+    "sha256": "70d9d2cedf00652fc819f446cb1f4084f431fe007d9e1754b98900ed349cc53b"
+  },
+  {
+    "id": "iberian-ibex",
+    "width": 800,
+    "height": 798,
+    "bytes": 304822,
+    "sha256": "3810408b52696f3ca1177f44263237b79d88552365e174bbcf1ed6e8a2b4bdf7"
+  },
+  {
+    "id": "water-deer",
+    "width": 800,
+    "height": 619,
+    "bytes": 238084,
+    "sha256": "8f706dea44946ba52f3f7633e4f52984b83d17e9a479b9386f867904535ea829"
+  },
+  {
+    "id": "north-sulawesi-babirusa",
+    "width": 800,
+    "height": 600,
+    "bytes": 259837,
+    "sha256": "f45a28070bc853119c8701e282d91053de52bea1c98a9e873d310d4d05177955"
+  },
+  {
+    "id": "visayan-warty-pig",
+    "width": 800,
+    "height": 533,
+    "bytes": 204011,
+    "sha256": "ad28e515a0997e99e588ed5a966c57874c6a79ac4c68fe56dbef2ed285f003cd"
+  },
+  {
+    "id": "cotton-top-tamarin",
+    "width": 573,
+    "height": 800,
+    "bytes": 110274,
+    "sha256": "fe754da458684ee292edc6fd7c7e41b1882d0101ff5dbfe6643f23128fd78186"
+  },
+  {
+    "id": "gelada",
+    "width": 800,
+    "height": 800,
+    "bytes": 315993,
+    "sha256": "ef2c813cb05d2a81237b8afe7b1bb358bf7767c70e67d723d3a06d4842a4273e"
+  },
+  {
+    "id": "lion-tailed-macaque",
+    "width": 627,
+    "height": 800,
+    "bytes": 132784,
+    "sha256": "72fd751aec9dc884e9206b3705f83195894ca0f91b5f13fdd51c135ffdaf9446"
+  },
+  {
+    "id": "silvery-gibbon",
+    "width": 800,
+    "height": 800,
+    "bytes": 162327,
+    "sha256": "b257c8498a5a3a6e901779e2c15a004ad4d409eb8368be0f8d94db6aab4d08b5"
   }
 ]

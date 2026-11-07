@@ -4,9 +4,10 @@
 
 Five animal photos. One globe. Find a native country.
 
-This independent job-portfolio release includes 100 sourced animal species, five
+This independent job-portfolio release includes 150 sourced animal species, five
 questions per round, unlimited practice and a daily UTC challenge. Drag or zoom
 the globe, tap to answer, or turn on confirmation before locking in a guess.
+The latest 50 additions include 35 familiar species and 15 discovery species (30% high difficulty). This ratio describes the additions; the existing round selector is unchanged.
 Country borders approximate native-country regions; they are not precise habitat
 maps. A five-round perfect score is 1,000 points.
 
@@ -26,10 +27,10 @@ from other devices are separate. Copy score includes this demo's own URL.
 Use Node 22+ and Yarn. Run `yarn install --frozen-lockfile`, then
 `yarn playwright install chromium` to install the browser test runtime. On Linux,
 use `yarn playwright install --with-deps chromium`. Run `yarn verify` for the domain,
-geography, actual-controller, 100-species package, release hashes and real browser
+geography, actual-controller, 150-species package, release hashes and real browser
 checks. The browser decodes every packaged photo and scrolls the credits to the
 last species; representative rounds cover the shared question flow without
-replaying 100 animal rounds. No frontend server starts; local browser tests
+replaying 150 animal rounds. No frontend server starts; local browser tests
 intercept the exact static files under the GitHub project path. `DEMO_URL` repeats the same flows on live HTTPS.
 `DEMO_BROWSER_EXECUTABLE` can select an existing Chromium test binary.
 
@@ -49,4 +50,4 @@ the game. [Animal evidence and credits](docs/animal-sources.md) and
 BSD-3-Clause; Natural Earth country data is public domain. License notices remain
 in `site/vendor/`. No GeoSports code or assets are included.
 
-Scope and evidence: [100-species release plan](docs/plans/2026-10-23-hundred-species.md).
+Current evidence: [150-species acceptance](docs/acceptance.md). Original scope: [100-species release plan](docs/plans/2026-10-23-hundred-species.md).

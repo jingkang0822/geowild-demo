@@ -1,6 +1,23 @@
 # GeoWild portfolio demo acceptance
 
-Current release: 2026-10-23, exactly 100 species. Completion command: `yarn verify`.
+## Current release: 2026-11-07
+
+Exactly 150 species, including 50 additions: 35 familiar and 15 discovery (30% of the additions). The existing selector and game behavior are unchanged. Completion command: `yarn verify`.
+
+- Original 100 records are byte-equivalent after JSON serialization; every original photo still matches the previous release manifest. Existing saved-game fixtures remain readable.
+- All 150 species are reachable over 1,000 deterministic practice seeds and exercise submit, duplicate suppression, serialization, restoration and advance through the shipped engine.
+- All 1,508 species-country pairs score correctly against 160 accepted country geometries. Every species rejects an open-Pacific guess.
+- The additions have 49 verified MDD v2.5 country records and one Australian Museum southern cassowary account. Re-downloaded primary dataset and map fixture hashes match the previous release. Current Commons metadata confirms each added photograph's source URL, author and license.
+- Visual inspection rejected a mounted Brazilian three-banded armadillo specimen; a living red slender loris photograph replaces it. Every packaged image decodes in Chromium.
+- The Natural Earth label point for Trinidad and Tobago was 17.646875 km offshore. The independent GeoNames Arima coordinate falls inside the shipped polygon and scores 100; the label scored 97. Only the test fixture changed.
+- Local acceptance: 25 Node tests, package/release verification and all nine browser workflows pass. The package has 150 local JPEGs totaling 28,297,351 bytes. Browser instances close in `finally`; no frontend server starts.
+- CI deployment and live HTTPS acceptance are pending this commit.
+
+Release identity: `ba8213c93a1c865ea4078df611e370c2fbc421edcdc14993ca049954e30ee4be`.
+
+## Historical 100-species acceptance
+
+Previous release: 2026-10-23, exactly 100 species. Completion command: `yarn verify`.
 
 The original controller, engine, globe and scoring implementation are unchanged. One shared interaction contract applies to every animal: photo loading -> ready -> immediate guess or movable confirmation draft -> exactly-once reveal -> next question -> five-result total -> replay/home/share. Data-driven tests cover all 100 records; representative real browser workflows cross the UI/storage/WebGL boundaries without replaying 100 full rounds.
 

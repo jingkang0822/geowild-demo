@@ -1120,6 +1120,31 @@
         66.496586,
         34.164262
       ]
+    },
+    "TTO": {
+      "name": "Trinidad and Tobago",
+      "point": [
+        -61.28228,
+        10.63737
+      ],
+      "source": "https://download.geonames.org/export/dump/TT.zip",
+      "geonameId": "3575051",
+      "review": "Natural Earth label point is offshore (17.646875 km outside the packaged polygon). Use the independently sourced inland town Arima on Trinidad.",
+      "archiveSha256": "eebc04d082092168aece97f2099b1dd2b95aaed274d0e8480aa0556ef4d97d0b"
+    },
+    "PHL": {
+      "name": "Philippines",
+      "point": [
+        122.465,
+        11.198
+      ]
+    },
+    "PNG": {
+      "name": "Papua New Guinea",
+      "point": [
+        143.910216,
+        -5.695285
+      ]
     }
   }
 }
