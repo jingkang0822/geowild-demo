@@ -11,7 +11,8 @@ Exactly 150 species, including 50 additions: 35 familiar and 15 discovery (30% o
 - Visual inspection rejected a mounted Brazilian three-banded armadillo specimen; a living red slender loris photograph replaces it. Every packaged image decodes in Chromium.
 - The Natural Earth label point for Trinidad and Tobago was 17.646875 km offshore. The independent GeoNames Arima coordinate falls inside the shipped polygon and scores 100; the label scored 97. Only the test fixture changed.
 - Local acceptance: 25 Node tests, package/release verification and all nine browser workflows pass. The package has 150 local JPEGs totaling 28,297,351 bytes. Browser instances close in `finally`; no frontend server starts.
-- CI deployment and live HTTPS acceptance are pending this commit.
+- CI [run 42350866902](https://github.com/jingkang0822/geowild-demo/actions/runs/42350866902) verified and deployed commit `d19f0ffbe7a44a2bfcd043e6ba6875f8663210c8`. Live HTTPS acceptance passed all nine workflows, decoded all 150 photographs and matched all 159 loaded asset hashes, with zero application errors or external requests. [Live receipt](live-acceptance.json) is byte-identical to the local browser report.
+- The first live attempt observed one HTTP 503 while decoding photos; its cause was not established. A separate live probe decoded all 150 photographs without failures, followed by the successful complete live run. No retry workaround or application behavior was changed.
 
 Release identity: `ba8213c93a1c865ea4078df611e370c2fbc421edcdc14993ca049954e30ee4be`.
 
@@ -21,7 +22,7 @@ Previous release: 2026-10-23, exactly 100 species. Completion command: `yarn ver
 
 The original controller, engine, globe and scoring implementation are unchanged. One shared interaction contract applies to every animal: photo loading -> ready -> immediate guess or movable confirmation draft -> exactly-once reveal -> next question -> five-result total -> replay/home/share. Data-driven tests cover all 100 records; representative real browser workflows cross the UI/storage/WebGL boundaries without replaying 100 full rounds.
 
-## Data and geographic acceptance
+### Data and geographic acceptance
 
 - Exactly 100 distinct IDs/scientific names, with canonical/runtime equality and 100 locally packaged photos (18,793,978 bytes).
 - All 100 species reached through the existing selector over 1,000 deterministic practice seeds; all five multipliers checked for every species.
@@ -35,7 +36,7 @@ Local acceptance passed all domain/package/release checks and nine browser workf
 
 Release identity: `bc9c0f9eb448e9918d342eaeabda09f7d0190fed1c3eae7fb68bc905722f9dcd`.
 
-## Interaction ledger
+### Interaction ledger
 
 | Surface | Control | Source | Prerequisite | Immediate feedback | Success | Failure/retry | Repeat | Exit | Navigation/relaunch | Topology/runtime | Authority/reconciliation | Timing | Mock compensation | Production evidence | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -58,15 +59,15 @@ Release identity: `bc9c0f9eb448e9918d342eaeabda09f7d0190fed1c3eae7fb68bc905722f9
 | Storage | Visible Retry saving and non-destructive notices | site/js/app.js:53 | Blocked or corrupt demo record | Notice visible while session remains usable | Retry writes current answer when storage recovers | Corrupt raw bytes remain unchanged | Retry does not duplicate answer | Continue session | Healthy reveal reload retains exact result; corrupt record preserved | Static project-path HTTPS; sequential five-question engine | geowild-demo:v1 only; original namespace sentinel unchanged | Save before reveal; no timer or auto-spin | Actual browser localStorage with deliberate denial/corruption; `game-loop` and `daily-practice-share` compensate with normal real storage and live reload | recovery: blocked storage; recovery: corrupt demo save | PASS |
 
 
-## Limits
+### Limits
 
 Country-level answers are not exact habitat claims. Natural Earth uses its own administrative country codes (including overseas aggregation); map aliases are explicit in range evidence. This is desktop Chromium plus 390px touch emulation, not physical-phone certification. Native GPU-context loss, physical pinch and automatic clipboard success remain unmeasured; the selectable clipboard fallback, missing-map-component retry and actual healthy WebGL path are tested. Source-page availability is not a runtime game dependency. Software-renderer ReadPixels warnings and deliberate photo503 are recorded separately from unexpected errors.
 
-## Release status
+### Release status
 
-Published at https://jingkang0822.github.io/geowild-demo/ . [Pages run 39901375679](https://github.com/jingkang0822/geowild-demo/actions/runs/39901375679) passed on commit `c0316955a5182fc993fd9c4ad282c94cfb73fd42`. The same live `DEMO_URL=https://jingkang0822.github.io/geowild-demo/ yarn verify` passed all 24 Node tests and nine browser workflows in 27.59 seconds. All 114 served content files match their expected hashes; the build-only dotfile is excluded. [Machine-readable proof](live-acceptance.json) records all 100 loaded photo hashes and zero unexpected errors/automatic external requests. Retained renderer warnings and deliberate503 are explicit.
+Published at https://jingkang0822.github.io/geowild-demo/ . [Pages run 39901375679](https://github.com/jingkang0822/geowild-demo/actions/runs/39901375679) passed on commit `c0316955a5182fc993fd9c4ad282c94cfb73fd42`. The same live `DEMO_URL=https://jingkang0822.github.io/geowild-demo/ yarn verify` passed all 24 Node tests and nine browser workflows in 27.59 seconds. All 114 served content files match their expected hashes; the build-only dotfile is excluded. [Historical machine-readable proof](https://github.com/jingkang0822/geowild-demo/blob/cc7dc055f51d5d7ae24c7ae753052d7fe395254f/docs/live-acceptance.json) records all 100 loaded photo hashes and zero unexpected errors/automatic external requests. Retained renderer warnings and deliberate503 are explicit.
 
-## Asset import evidence
+### Asset import evidence
 
 The existing downloader initially received a transient Wikimedia HTTP429. Subsequent bounded probes returned200 for the same original and thumbnail URLs; the probe record remains an ignored artifact. Imports resumed sequentially with existing files preserved, immediate failure and per-file progress, without automatic status retries or alternate-provider routing. All 100 final JPEGs passed macOS decoding/dimensions and browser Image.decode(). Four labelled contact sheets were visually inspected; historical Javan-rhino and sable photographs remain authentic credited images.
 
